@@ -36,24 +36,24 @@ function App() {
 							<div className="right-icons">
 								<ul>
 									<li>
-										<a href="#">
+										{/* <a href="#">
 											<i className="fa fa-facebook"></i>
-										</a>
+										</a> */}
 									</li>
 									<li>
-										<a href="#">
+										{/* <a href="#">
 											<i className="fa fa-twitter"></i>
-										</a>
+										</a> */}
 									</li>
 									<li>
-										<a href="#">
+										{/* <a href="#">
 											<i className="fa fa-behance"></i>
-										</a>
+										</a> */}
 									</li>
 									<li>
-										<a href="#">
+										{/* <a href="#">
 											<i className="fa fa-linkedin"></i>
-										</a>
+										</a> */}
 									</li>
 								</ul>
 							</div>
@@ -87,7 +87,7 @@ function App() {
 										<a href="#apply">Apply Now</a>
 									</li>
 									<li className="has-sub">
-										<a href="javascript:void(0)">Pages</a>
+										{/* <a href="javascript:void(0)">Pages</a> */}
 										<ul className="sub-menu">
 											<li>
 												<a href="meetings.html">Upcoming Meetings</a>
@@ -104,9 +104,9 @@ function App() {
 										<a href="#contact">Contact Us</a>
 									</li>
 								</ul>
-								<a className="menu-trigger">
+								{/* <a className="menu-trigger">
 									<span>Menu</span>
-								</a>
+								</a> */}
 								{/* <!-- ***** Menu End ***** --> */}
 							</nav>
 						</div>
@@ -130,23 +130,22 @@ function App() {
 									<h2>Welcome to Education</h2>
 									<p>
 										This is an edu meeting HTML CSS template provided by{' '}
-										<a
+										{/* <a
 											rel="nofollow"
 											href="https://templatemo.com/page/1"
 											target="_blank"
-										>
-											TemplateMo website
-										</a>
-										. This is a Bootstrap v5.1.3 layout. The video background is
-										taken from Pexels website, a group of young people by{' '}
-										<a
+										> */}
+										TemplateMo website
+										{/* </a> */}. This is a Bootstrap v5.1.3 layout. The video
+										background is taken from Pexels website, a group of young
+										people by{' '}
+										{/* <a
 											rel="nofollow"
 											href="https://www.pexels.com/@pressmaster"
 											target="_blank"
-										>
-											Pressmaster
-										</a>
-										.
+										> */}
+										Pressmaster
+										{/* </a> */}.
 									</p>
 									<div className="main-button-red">
 										<div className="scroll-to-section">
@@ -247,7 +246,7 @@ function App() {
 						<div className="col-lg-4">
 							<div className="categories">
 								<h4>Meeting Catgories</h4>
-								<ul>
+								{/* <ul>
 									<li>
 										<a href="#">Sed tempus enim leo</a>
 									</li>
@@ -263,7 +262,7 @@ function App() {
 									<li>
 										<a href="#">Phasellus nec sapien</a>
 									</li>
-								</ul>
+								</ul> */}
 								<div className="main-button-red">
 									<a href="meetings.html">All Upcoming Meetings</a>
 								</div>
@@ -978,12 +977,12 @@ function App() {
 						</div>
 						<div className="col-lg-6 align-self-center">
 							<div className="video">
-								<a
+								{/* <a
 									href="https://www.youtube.com/watch?v=HndV87XpkWg"
 									target="_blank"
 								>
 									<img src="assets/images/play-icon.png" alt="" />
-								</a>
+								</a> */}
 							</div>
 						</div>
 					</div>
