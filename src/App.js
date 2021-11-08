@@ -1,4 +1,4 @@
-import logo from './logo.svg'
+// import logo from './logo.svg'
 import './App.css'
 
 function App() {
@@ -21,38 +21,38 @@ function App() {
 		// </div>
 		<>
 			{/* subheader */}
-			<div class="sub-header">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-8 col-sm-8">
-							<div class="left-content">
+			<div className="sub-header">
+				<div className="container">
+					<div className="row">
+						<div className="col-lg-8 col-sm-8">
+							<div className="left-content">
 								<p>
 									This is an educational <em>HTML CSS</em> template by
 									TemplateMo website.
 								</p>
 							</div>
 						</div>
-						<div class="col-lg-4 col-sm-4">
-							<div class="right-icons">
+						<div className="col-lg-4 col-sm-4">
+							<div className="right-icons">
 								<ul>
 									<li>
 										<a href="#">
-											<i class="fa fa-facebook"></i>
+											<i className="fa fa-facebook"></i>
 										</a>
 									</li>
 									<li>
 										<a href="#">
-											<i class="fa fa-twitter"></i>
+											<i className="fa fa-twitter"></i>
 										</a>
 									</li>
 									<li>
 										<a href="#">
-											<i class="fa fa-behance"></i>
+											<i className="fa fa-behance"></i>
 										</a>
 									</li>
 									<li>
 										<a href="#">
-											<i class="fa fa-linkedin"></i>
+											<i className="fa fa-linkedin"></i>
 										</a>
 									</li>
 								</ul>
@@ -63,32 +63,32 @@ function App() {
 			</div>
 
 			{/* <!-- ***** Header Area Start ***** --> */}
-			<header class="header-area header-sticky">
-				<div class="container">
-					<div class="row">
-						<div class="col-12">
-							<nav class="main-nav">
+			<header className="header-area header-sticky">
+				<div className="container">
+					<div className="row">
+						<div className="col-12">
+							<nav className="main-nav">
 								{/* <!-- ***** Logo Start ***** --> */}
-								<a href="index.html" class="logo">
+								<a href="index.html" className="logo">
 									Edu Meeting
 								</a>
 								{/* <!-- ***** Logo End ***** -->
                       <!-- ***** Menu Start ***** --> */}
-								<ul class="nav">
-									<li class="scroll-to-section">
-										<a href="#top" class="active">
+								<ul className="nav">
+									<li className="scroll-to-section">
+										<a href="#top" className="active">
 											Home
 										</a>
 									</li>
 									<li>
 										<a href="meetings.html">Meetings</a>
 									</li>
-									<li class="scroll-to-section">
+									<li className="scroll-to-section">
 										<a href="#apply">Apply Now</a>
 									</li>
-									<li class="has-sub">
+									<li className="has-sub">
 										<a href="javascript:void(0)">Pages</a>
-										<ul class="sub-menu">
+										<ul className="sub-menu">
 											<li>
 												<a href="meetings.html">Upcoming Meetings</a>
 											</li>
@@ -97,14 +97,14 @@ function App() {
 											</li>
 										</ul>
 									</li>
-									<li class="scroll-to-section">
+									<li className="scroll-to-section">
 										<a href="#courses">Courses</a>
 									</li>
-									<li class="scroll-to-section">
+									<li className="scroll-to-section">
 										<a href="#contact">Contact Us</a>
 									</li>
 								</ul>
-								<a class="menu-trigger">
+								<a className="menu-trigger">
 									<span>Menu</span>
 								</a>
 								{/* <!-- ***** Menu End ***** --> */}
@@ -116,16 +116,16 @@ function App() {
 			{/* <!-- ***** Header Area End ***** -->
 
   <!-- ***** Main Banner Area Start ***** --> */}
-			<section class="section main-banner" id="top" data-section="section1">
+			<section className="section main-banner" id="top" data-section="section1">
 				<video autoplay muted loop id="bg-video">
 					<source src="assets/images/course-video.mp4" type="video/mp4" />
 				</video>
 
-				<div class="video-overlay header-text">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-12">
-								<div class="caption">
+				<div className="video-overlay header-text">
+					<div className="container">
+						<div className="row">
+							<div className="col-lg-12">
+								<div className="caption">
 									<h6>Hello Students</h6>
 									<h2>Welcome to Education</h2>
 									<p>
@@ -148,8 +148,8 @@ function App() {
 										</a>
 										.
 									</p>
-									<div class="main-button-red">
-										<div class="scroll-to-section">
+									<div className="main-button-red">
+										<div className="scroll-to-section">
 											<a href="#contact">Join Us Now!</a>
 										</div>
 									</div>
@@ -161,16 +161,16 @@ function App() {
 			</section>
 			{/* <!-- ***** Main Banner Area End ***** --> */}
 
-			<section class="services">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12">
-							<div class="owl-service-item owl-carousel">
-								<div class="item">
-									<div class="icon">
+			<section className="services">
+				<div className="container">
+					<div className="row">
+						<div className="col-lg-12">
+							<div className="owl-service-item owl-carousel">
+								<div className="item">
+									<div className="icon">
 										<img src="./assets/images/service-icon-01.png" alt="" />
 									</div>
-									<div class="down-content">
+									<div className="down-content">
 										<h4>Best Education</h4>
 										<p>
 											Suspendisse tempor mauris a sem elementum bibendum.
@@ -179,11 +179,11 @@ function App() {
 									</div>
 								</div>
 
-								<div class="item">
-									<div class="icon">
+								<div className="item">
+									<div className="icon">
 										<img src="./assets/images/service-icon-02.png" alt="" />
 									</div>
-									<div class="down-content">
+									<div className="down-content">
 										<h4>Best Teachers</h4>
 										<p>
 											Suspendisse tempor mauris a sem elementum bibendum.
@@ -192,11 +192,11 @@ function App() {
 									</div>
 								</div>
 
-								<div class="item">
-									<div class="icon">
+								<div className="item">
+									<div className="icon">
 										<img src="./assets/images/service-icon-03.png" alt="" />
 									</div>
-									<div class="down-content">
+									<div className="down-content">
 										<h4>Best Students</h4>
 										<p>
 											Suspendisse tempor mauris a sem elementum bibendum.
@@ -205,11 +205,11 @@ function App() {
 									</div>
 								</div>
 
-								<div class="item">
-									<div class="icon">
+								<div className="item">
+									<div className="icon">
 										<img src="./assets/images/service-icon-02.png" alt="" />
 									</div>
-									<div class="down-content">
+									<div className="down-content">
 										<h4>Online Meeting</h4>
 										<p>
 											Suspendisse tempor mauris a sem elementum bibendum.
@@ -218,11 +218,11 @@ function App() {
 									</div>
 								</div>
 
-								<div class="item">
-									<div class="icon">
+								<div className="item">
+									<div className="icon">
 										<img src="/assets/images/service-icon-03.png" alt="" />
 									</div>
-									<div class="down-content">
+									<div className="down-content">
 										<h4>Best Networking</h4>
 										<p>
 											Suspendisse tempor mauris a sem elementum bibendum.
@@ -236,16 +236,16 @@ function App() {
 				</div>
 			</section>
 
-			<section class="upcoming-meetings" id="meetings">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12">
-							<div class="section-heading">
+			<section className="upcoming-meetings" id="meetings">
+				<div className="container">
+					<div className="row">
+						<div className="col-lg-12">
+							<div className="section-heading">
 								<h2>Upcoming Meetings</h2>
 							</div>
 						</div>
-						<div class="col-lg-4">
-							<div class="categories">
+						<div className="col-lg-4">
+							<div className="categories">
 								<h4>Meeting Catgories</h4>
 								<ul>
 									<li>
@@ -264,17 +264,17 @@ function App() {
 										<a href="#">Phasellus nec sapien</a>
 									</li>
 								</ul>
-								<div class="main-button-red">
+								<div className="main-button-red">
 									<a href="meetings.html">All Upcoming Meetings</a>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-8">
-							<div class="row">
-								<div class="col-lg-6">
-									<div class="meeting-item">
-										<div class="thumb">
-											<div class="price">
+						<div className="col-lg-8">
+							<div className="row">
+								<div className="col-lg-6">
+									<div className="meeting-item">
+										<div className="thumb">
+											<div className="price">
 												<span>$22.00</span>
 											</div>
 											<a href="meeting-details.html">
@@ -284,8 +284,8 @@ function App() {
 												/>
 											</a>
 										</div>
-										<div class="down-content">
-											<div class="date">
+										<div className="down-content">
+											<div className="date">
 												<h6>
 													Nov <span>10</span>
 												</h6>
@@ -301,10 +301,10 @@ function App() {
 										</div>
 									</div>
 								</div>
-								<div class="col-lg-6">
-									<div class="meeting-item">
-										<div class="thumb">
-											<div class="price">
+								<div className="col-lg-6">
+									<div className="meeting-item">
+										<div className="thumb">
+											<div className="price">
 												<span>$36.00</span>
 											</div>
 											<a href="meeting-details.html">
@@ -314,8 +314,8 @@ function App() {
 												/>
 											</a>
 										</div>
-										<div class="down-content">
-											<div class="date">
+										<div className="down-content">
+											<div className="date">
 												<h6>
 													Nov <span>24</span>
 												</h6>
@@ -331,10 +331,10 @@ function App() {
 										</div>
 									</div>
 								</div>
-								<div class="col-lg-6">
-									<div class="meeting-item">
-										<div class="thumb">
-											<div class="price">
+								<div className="col-lg-6">
+									<div className="meeting-item">
+										<div className="thumb">
+											<div className="price">
 												<span>$14.00</span>
 											</div>
 											<a href="meeting-details.html">
@@ -344,8 +344,8 @@ function App() {
 												/>
 											</a>
 										</div>
-										<div class="down-content">
-											<div class="date">
+										<div className="down-content">
+											<div className="date">
 												<h6>
 													Nov <span>26</span>
 												</h6>
@@ -361,10 +361,10 @@ function App() {
 										</div>
 									</div>
 								</div>
-								<div class="col-lg-6">
-									<div class="meeting-item">
-										<div class="thumb">
-											<div class="price">
+								<div className="col-lg-6">
+									<div className="meeting-item">
+										<div className="thumb">
+											<div className="price">
 												<span>$48.00</span>
 											</div>
 											<a href="meeting-details.html">
@@ -374,8 +374,8 @@ function App() {
 												/>
 											</a>
 										</div>
-										<div class="down-content">
-											<div class="date">
+										<div className="down-content">
+											<div className="date">
 												<h6>
 													Nov <span>30</span>
 												</h6>
@@ -397,36 +397,36 @@ function App() {
 				</div>
 			</section>
 
-			<section class="apply-now" id="apply">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-6 align-self-center">
-							<div class="row">
-								<div class="col-lg-12">
-									<div class="item">
+			<section className="apply-now" id="apply">
+				<div className="container">
+					<div className="row">
+						<div className="col-lg-6 align-self-center">
+							<div className="row">
+								<div className="col-lg-12">
+									<div className="item">
 										<h3>APPLY FOR BACHELOR DEGREE</h3>
 										<p>
 											You are allowed to use this edu meeting CSS template for
 											your school or university or business. You can feel free
 											to modify or edit this layout.
 										</p>
-										<div class="main-button-red">
-											<div class="scroll-to-section">
+										<div className="main-button-red">
+											<div className="scroll-to-section">
 												<a href="#contact">Join Us Now!</a>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="col-lg-12">
-									<div class="item">
+								<div className="col-lg-12">
+									<div className="item">
 										<h3>APPLY FOR BACHELOR DEGREE</h3>
 										<p>
 											You are not allowed to redistribute the template ZIP file
 											on any other template website. Please contact us for more
 											information.
 										</p>
-										<div class="main-button-yellow">
-											<div class="scroll-to-section">
+										<div className="main-button-yellow">
+											<div className="scroll-to-section">
 												<a href="#contact">Join Us Now!</a>
 											</div>
 										</div>
@@ -434,17 +434,17 @@ function App() {
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-6">
-							<div class="accordions is-first-expanded">
-								<article class="accordion">
-									<div class="accordion-head">
+						<div className="col-lg-6">
+							<div className="accordions is-first-expanded">
+								<article className="accordion">
+									<div className="accordion-head">
 										<span>About Edu Meeting HTML Template</span>
-										<span class="icon">
-											<i class="icon fa fa-chevron-right"></i>
+										<span className="icon">
+											<i className="icon fa fa-chevron-right"></i>
 										</span>
 									</div>
-									<div class="accordion-body">
-										<div class="content">
+									<div className="accordion-body">
+										<div className="content">
 											<p>
 												If you want to get the latest collection of HTML CSS
 												templates for your websites, you may visit{' '}
@@ -468,15 +468,15 @@ function App() {
 										</div>
 									</div>
 								</article>
-								<article class="accordion">
-									<div class="accordion-head">
+								<article className="accordion">
+									<div className="accordion-head">
 										<span>HTML CSS Bootstrap Layout</span>
-										<span class="icon">
-											<i class="icon fa fa-chevron-right"></i>
+										<span className="icon">
+											<i className="icon fa fa-chevron-right"></i>
 										</span>
 									</div>
-									<div class="accordion-body">
-										<div class="content">
+									<div className="accordion-body">
+										<div className="content">
 											<p>
 												Etiam posuere metus orci, vel consectetur elit imperdiet
 												eu. Cras ipsum magna, maximus at semper sit amet,
@@ -491,15 +491,15 @@ function App() {
 										</div>
 									</div>
 								</article>
-								<article class="accordion">
-									<div class="accordion-head">
+								<article className="accordion">
+									<div className="accordion-head">
 										<span>Please tell your friends</span>
-										<span class="icon">
-											<i class="icon fa fa-chevron-right"></i>
+										<span className="icon">
+											<i className="icon fa fa-chevron-right"></i>
 										</span>
 									</div>
-									<div class="accordion-body">
-										<div class="content">
+									<div className="accordion-body">
+										<div className="content">
 											<p>
 												Ut vehicula mauris est, sed sodales justo rhoncus eu.
 												Morbi porttitor quam velit, at ullamcorper justo
@@ -514,15 +514,15 @@ function App() {
 										</div>
 									</div>
 								</article>
-								<article class="accordion last-accordion">
-									<div class="accordion-head">
+								<article className="accordion last-accordion">
+									<div className="accordion-head">
 										<span>Share this to your colleagues</span>
-										<span class="icon">
-											<i class="icon fa fa-chevron-right"></i>
+										<span className="icon">
+											<i className="icon fa fa-chevron-right"></i>
 										</span>
 									</div>
-									<div class="accordion-body">
-										<div class="content">
+									<div className="accordion-body">
+										<div className="content">
 											<p>
 												Maecenas suscipit enim libero, vel lobortis justo
 												condimentum id. Interdum et malesuada fames ac ante
@@ -543,385 +543,385 @@ function App() {
 				</div>
 			</section>
 
-			<section class="our-courses" id="courses">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12">
-							<div class="section-heading">
+			<section className="our-courses" id="courses">
+				<div className="container">
+					<div className="row">
+						<div className="col-lg-12">
+							<div className="section-heading">
 								<h2>Our Popular Courses</h2>
 							</div>
 						</div>
-						<div class="col-lg-12">
-							<div class="owl-courses-item owl-carousel">
-								<div class="item">
+						<div className="col-lg-12">
+							<div className="owl-courses-item owl-carousel">
+								<div className="item">
 									<img src="assets/images/course-01.jpg" alt="Course One" />
-									<div class="down-content">
+									<div className="down-content">
 										<h4>Morbi tincidunt elit vitae justo rhoncus</h4>
-										<div class="info">
-											<div class="row">
-												<div class="col-8">
+										<div className="info">
+											<div className="row">
+												<div className="col-8">
 													<ul>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 													</ul>
 												</div>
-												<div class="col-4">
+												<div className="col-4">
 													<span>$160</span>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="item">
+								<div className="item">
 									<img src="assets/images/course-02.jpg" alt="Course Two" />
-									<div class="down-content">
+									<div className="down-content">
 										<h4>Curabitur molestie dignissim purus vel</h4>
-										<div class="info">
-											<div class="row">
-												<div class="col-8">
+										<div className="info">
+											<div className="row">
+												<div className="col-8">
 													<ul>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 													</ul>
 												</div>
-												<div class="col-4">
+												<div className="col-4">
 													<span>$180</span>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="item">
+								<div className="item">
 									<img src="assets/images/course-03.jpg" alt="" />
-									<div class="down-content">
+									<div className="down-content">
 										<h4>Nulla at ipsum a mauris egestas tempor</h4>
-										<div class="info">
-											<div class="row">
-												<div class="col-8">
+										<div className="info">
+											<div className="row">
+												<div className="col-8">
 													<ul>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 													</ul>
 												</div>
-												<div class="col-4">
+												<div className="col-4">
 													<span>$140</span>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="item">
+								<div className="item">
 									<img src="assets/images/course-04.jpg" alt="" />
-									<div class="down-content">
+									<div className="down-content">
 										<h4>Aenean molestie quis libero gravida</h4>
-										<div class="info">
-											<div class="row">
-												<div class="col-8">
+										<div className="info">
+											<div className="row">
+												<div className="col-8">
 													<ul>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 													</ul>
 												</div>
-												<div class="col-4">
+												<div className="col-4">
 													<span>$120</span>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="item">
+								<div className="item">
 									<img src="assets/images/course-01.jpg" alt="" />
-									<div class="down-content">
+									<div className="down-content">
 										<h4>Lorem ipsum dolor sit amet adipiscing elit</h4>
-										<div class="info">
-											<div class="row">
-												<div class="col-8">
+										<div className="info">
+											<div className="row">
+												<div className="col-8">
 													<ul>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 													</ul>
 												</div>
-												<div class="col-4">
+												<div className="col-4">
 													<span>$250</span>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="item">
+								<div className="item">
 									<img src="assets/images/course-02.jpg" alt="" />
-									<div class="down-content">
+									<div className="down-content">
 										<h4>TemplateMo is the best website for Free CSS</h4>
-										<div class="info">
-											<div class="row">
-												<div class="col-8">
+										<div className="info">
+											<div className="row">
+												<div className="col-8">
 													<ul>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 													</ul>
 												</div>
-												<div class="col-4">
+												<div className="col-4">
 													<span>$270</span>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="item">
+								<div className="item">
 									<img src="assets/images/course-03.jpg" alt="" />
-									<div class="down-content">
+									<div className="down-content">
 										<h4>Web Design Templates at your finger tips</h4>
-										<div class="info">
-											<div class="row">
-												<div class="col-8">
+										<div className="info">
+											<div className="row">
+												<div className="col-8">
 													<ul>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 													</ul>
 												</div>
-												<div class="col-4">
+												<div className="col-4">
 													<span>$340</span>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="item">
+								<div className="item">
 									<img src="assets/images/course-04.jpg" alt="" />
-									<div class="down-content">
+									<div className="down-content">
 										<h4>Please visit our website again</h4>
-										<div class="info">
-											<div class="row">
-												<div class="col-8">
+										<div className="info">
+											<div className="row">
+												<div className="col-8">
 													<ul>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 													</ul>
 												</div>
-												<div class="col-4">
+												<div className="col-4">
 													<span>$360</span>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="item">
+								<div className="item">
 									<img src="assets/images/course-01.jpg" alt="" />
-									<div class="down-content">
+									<div className="down-content">
 										<h4>Responsive HTML Templates for you</h4>
-										<div class="info">
-											<div class="row">
-												<div class="col-8">
+										<div className="info">
+											<div className="row">
+												<div className="col-8">
 													<ul>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 													</ul>
 												</div>
-												<div class="col-4">
+												<div className="col-4">
 													<span>$400</span>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="item">
+								<div className="item">
 									<img src="assets/images/course-02.jpg" alt="" />
-									<div class="down-content">
+									<div className="down-content">
 										<h4>Download Free CSS Layouts for your business</h4>
-										<div class="info">
-											<div class="row">
-												<div class="col-8">
+										<div className="info">
+											<div className="row">
+												<div className="col-8">
 													<ul>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 													</ul>
 												</div>
-												<div class="col-4">
+												<div className="col-4">
 													<span>$430</span>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="item">
+								<div className="item">
 									<img src="assets/images/course-03.jpg" alt="" />
-									<div class="down-content">
+									<div className="down-content">
 										<h4>Morbi in libero blandit lectus cursus</h4>
-										<div class="info">
-											<div class="row">
-												<div class="col-8">
+										<div className="info">
+											<div className="row">
+												<div className="col-8">
 													<ul>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 													</ul>
 												</div>
-												<div class="col-4">
+												<div className="col-4">
 													<span>$480</span>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="item">
+								<div className="item">
 									<img src="assets/images/course-04.jpg" alt="" />
-									<div class="down-content">
+									<div className="down-content">
 										<h4>Curabitur molestie dignissim purus</h4>
-										<div class="info">
-											<div class="row">
-												<div class="col-8">
+										<div className="info">
+											<div className="row">
+												<div className="col-8">
 													<ul>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 														<li>
-															<i class="fa fa-star"></i>
+															<i className="fa fa-star"></i>
 														</li>
 													</ul>
 												</div>
-												<div class="col-4">
+												<div className="col-4">
 													<span>$560</span>
 												</div>
 											</div>
@@ -934,50 +934,50 @@ function App() {
 				</div>
 			</section>
 
-			<section class="our-facts">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-6">
-							<div class="row">
-								<div class="col-lg-12">
+			<section className="our-facts">
+				<div className="container">
+					<div className="row">
+						<div className="col-lg-6">
+							<div className="row">
+								<div className="col-lg-12">
 									<h2>A Few Facts About Our University</h2>
 								</div>
-								<div class="col-lg-6">
-									<div class="row">
-										<div class="col-12">
-											<div class="count-area-content percentage">
-												<div class="count-digit">94</div>
-												<div class="count-title">Succesed Students</div>
+								<div className="col-lg-6">
+									<div className="row">
+										<div className="col-12">
+											<div className="count-area-content percentage">
+												<div className="count-digit">94</div>
+												<div className="count-title">Succesed Students</div>
 											</div>
 										</div>
-										<div class="col-12">
-											<div class="count-area-content">
-												<div class="count-digit">126</div>
-												<div class="count-title">Current Teachers</div>
+										<div className="col-12">
+											<div className="count-area-content">
+												<div className="count-digit">126</div>
+												<div className="count-title">Current Teachers</div>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="col-lg-6">
-									<div class="row">
-										<div class="col-12">
-											<div class="count-area-content new-students">
-												<div class="count-digit">2345</div>
-												<div class="count-title">New Students</div>
+								<div className="col-lg-6">
+									<div className="row">
+										<div className="col-12">
+											<div className="count-area-content new-students">
+												<div className="count-digit">2345</div>
+												<div className="count-title">New Students</div>
 											</div>
 										</div>
-										<div class="col-12">
-											<div class="count-area-content">
-												<div class="count-digit">32</div>
-												<div class="count-title">Awards</div>
+										<div className="col-12">
+											<div className="count-area-content">
+												<div className="count-digit">32</div>
+												<div className="count-title">Awards</div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-6 align-self-center">
-							<div class="video">
+						<div className="col-lg-6 align-self-center">
+							<div className="video">
 								<a
 									href="https://www.youtube.com/watch?v=HndV87XpkWg"
 									target="_blank"
@@ -990,18 +990,18 @@ function App() {
 				</div>
 			</section>
 
-			<section class="contact-us" id="contact">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-9 align-self-center">
-							<div class="row">
-								<div class="col-lg-12">
+			<section className="contact-us" id="contact">
+				<div className="container">
+					<div className="row">
+						<div className="col-lg-9 align-self-center">
+							<div className="row">
+								<div className="col-lg-12">
 									<form id="contact" action="" method="post">
-										<div class="row">
-											<div class="col-lg-12">
+										<div className="row">
+											<div className="col-lg-12">
 												<h2>Let's get in touch</h2>
 											</div>
-											<div class="col-lg-4">
+											<div className="col-lg-4">
 												<fieldset>
 													<input
 														name="name"
@@ -1012,7 +1012,7 @@ function App() {
 													/>
 												</fieldset>
 											</div>
-											<div class="col-lg-4">
+											<div className="col-lg-4">
 												<fieldset>
 													<input
 														name="email"
@@ -1024,7 +1024,7 @@ function App() {
 													/>
 												</fieldset>
 											</div>
-											<div class="col-lg-4">
+											<div className="col-lg-4">
 												<fieldset>
 													<input
 														name="subject"
@@ -1035,21 +1035,25 @@ function App() {
 													/>
 												</fieldset>
 											</div>
-											<div class="col-lg-12">
+											<div className="col-lg-12">
 												<fieldset>
 													<textarea
 														name="message"
 														type="text"
-														class="form-control"
+														className="form-control"
 														id="message"
 														placeholder="YOUR MESSAGE..."
 														required=""
 													></textarea>
 												</fieldset>
 											</div>
-											<div class="col-lg-12">
+											<div className="col-lg-12">
 												<fieldset>
-													<button type="submit" id="form-submit" class="button">
+													<button
+														type="submit"
+														id="form-submit"
+														className="button"
+													>
 														SEND MESSAGE NOW
 													</button>
 												</fieldset>
@@ -1059,8 +1063,8 @@ function App() {
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-3">
-							<div class="right-info">
+						<div className="col-lg-3">
+							<div className="right-info">
 								<ul>
 									<li>
 										<h6>Phone Number</h6>
@@ -1083,7 +1087,7 @@ function App() {
 						</div>
 					</div>
 				</div>
-				<div class="footer">
+				<div className="footer">
 					<p>
 						Copyright © 2022 Edu Meeting Co., Ltd. All Rights Reserved.
 						<br />
