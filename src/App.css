@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.header-logo {
+  width: 12rem;
+}
+
+.partners-container {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.partner-img {
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner-img:not(:last-child) {
+  margin-right: 2rem;
+}
