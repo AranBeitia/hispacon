@@ -1,8 +1,9 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
+import { render } from 'react-dom'
+import { BrowserRouter } from 'react-router-dom'
 
 // import {
 //   BrowserRouter as Router,
@@ -17,10 +18,10 @@ import './assets/css/templatemo-edu-meeting.css'
 import './assets/css/owl.css'
 import './assets/css/lightbox.css'
 
-ReactDOM.render(
-	<React.StrictMode>
+render(
+	<BrowserRouter>
 		<App />
-	</React.StrictMode>,
+	</BrowserRouter>,
 	document.getElementById('root')
 )
 

@@ -1,4 +1,5 @@
 import logo from '../assets/images/logo_hispacon.png'
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -35,21 +36,21 @@ export default function Header() {
                 </a>
                 <ul className="nav">
                   <li className="scroll-to-section">
-                    <a href="#top" className="active">
+                    <Link to="/" className="active">
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="meetings.html">Programa</a>
+                    <Link to="/programa">Programa</Link>
                   </li>
                   <li>
-                    <a href="meetings.html">Ponentes</a>
+                    <Link to="/ponentes">Ponentes</Link>
                   </li>
                   <li>
-                    <a href="meetings.html">Feria Virtual del libro de Género</a>
+                    <Link to="/feriaVirtual">Feria Virtual del libro de Género</Link>
                   </li>
                   <li>
-                    <a href="meetings.html">Jornadas Pórtico</a>
+                    <Link to="/jornadas">Jornadas Pórtico</Link>
                   </li>
                 </ul>
               </nav>
