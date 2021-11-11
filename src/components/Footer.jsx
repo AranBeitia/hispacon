@@ -1,4 +1,4 @@
-import {AACC,	AKIRA,	GIGAMESH,	INSOLITA,	MUNDOS,	MUSEOS,	QCENTER,	ROSSA,	SHOGUN,	UMA} from '../assets/images/partners'
+import {AACC,	AKIRA,	GIGAMESH,	INSOLITA,	MUNDOS,	MUSEOS,	QCENTER,	ROSSA,	SHOGUN,	UMA, DUERMEVELA} from '../assets/images/partners'
 
 export default function Footer() {
   return (
@@ -39,6 +39,9 @@ export default function Footer() {
         </div>
         <div className="partner-img">
           <img src={UMA} alt="Partner" />
+        </div>
+        <div className="partner-img">
+          <img src={DUERMEVELA} alt="Partner" />
         </div>
 
       </div>

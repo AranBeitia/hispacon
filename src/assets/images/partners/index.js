@@ -8,6 +8,7 @@ import QCENTER from './qcenter.png';
 import ROSSA from './rossa.png';
 import SHOGUN from './shogun.png';
 import UMA from './uma.png';
+import DUERMEVELA from './duermevela.png'
 
 export {
   AACC,
@@ -19,5 +20,6 @@ export {
   QCENTER,
   ROSSA,
   SHOGUN,
-  UMA
+  UMA,
+  DUERMEVELA,
 }
