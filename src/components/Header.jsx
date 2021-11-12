@@ -47,7 +47,7 @@ export default function Header() {
                     <Link to="/ponentes">Ponentes</Link>
                   </li>
                   <li>
-                    <Link to="/feriaVirtual">Feria Virtual del libro de Género</Link>
+                    <Link to="/feriaVirtual">II FVLG</Link>
                   </li>
                   <li>
                     <Link to="/jornadas">Jornadas Pórtico</Link>
