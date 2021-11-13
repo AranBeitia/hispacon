@@ -1,11 +1,11 @@
 import youtubeIcon from '../assets/images/icons/youtube-icon.svg'
 
-export default function Card({ title, description, day, hour, image, videoLink }) {
+export default function Card({ title, description, day, hour, image, videoLink, changeEvents }) {
   return (
     <div className="col-lg-4 templatemo-item-col all soon">
       <div className="meeting-item">
         <div className="thumb">
-          <div className="price">
+          <div className="price" >
             <span>{hour}</span>
           </div>
           <img src={image} alt={title} />
@@ -16,7 +16,7 @@ export default function Card({ title, description, day, hour, image, videoLink }
           </div>
           <a href="meeting-details.html"><h4>{title}</h4></a>
           <p>{description}</p>
-          <a href={videoLink}><img src={youtubeIcon} alt="Go to live Youtube Channel" /></a>
+          {videoLink === null ? null : <span href={videoLink}><img src={youtubeIcon} alt="Go to live Youtube Channel" className="youtube-icon" /></span> }
         </div>
       </div>
     </div>
