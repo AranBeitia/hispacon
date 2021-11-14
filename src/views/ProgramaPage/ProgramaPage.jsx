@@ -144,21 +144,21 @@ export default function ProgramaPage() {
 							</div>
 						</div>
 						<div className="grid-layout">
-						{events.map((cardInfo) => (
-							<Card
-								key={cardInfo.id}
-								id={cardInfo.id}
-								title={cardInfo.title}
-								description={cardInfo.description}
-								day={cardInfo.day}
-								hour={cardInfo.hour}
-								image={getImagePath(cardInfo.image)}
-								videoLink={cardInfo.videoLink}
-								pinEvent={isPinned(cardInfo.id)}
-								handlePinnedEvent={handlePinnedEvent}
-								isPinned={isPinned}
-							/>
-						))}
+							{events.map((cardInfo) => (
+								<Card
+									key={cardInfo.id}
+									id={cardInfo.id}
+									title={cardInfo.title}
+									description={cardInfo.description}
+									day={cardInfo.day}
+									hour={cardInfo.hour}
+									image={getImagePath(cardInfo.image)}
+									videoLink={cardInfo.videoLink}
+									pinEvent={isPinned(cardInfo.id)}
+									handlePinnedEvent={handlePinnedEvent}
+									isPinned={isPinned}
+								/>
+							))}
 						</div>
 					</div>
 				</div>

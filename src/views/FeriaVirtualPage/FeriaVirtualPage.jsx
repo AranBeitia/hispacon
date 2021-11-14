@@ -83,16 +83,20 @@ export default function FeriaVirtualPage() {
 				title={'Segunda Feria Virtual del libro de género'}
 				description={'Feria virtual'}
 			/>
-			<h1>FeriaVirtualPage</h1>
-
-			{data.map(cardInfo => 
-				<FeriaCard
-					id={cardInfo.id}
-					name={cardInfo.name}
-					logo={getImagePath(cardInfo.logo)}
-					link={cardInfo.link}
-					benefit={cardInfo.benefit}
-				/>)}
+			<section className="wrapper">
+				<div className="container">
+					<div className="grid-layout">
+						{data.map(cardInfo => 
+							<FeriaCard
+								id={cardInfo.id}
+								name={cardInfo.name}
+								logo={getImagePath(cardInfo.logo)}
+								link={cardInfo.link}
+								benefit={cardInfo.benefit}
+							/>)}
+					</div>
+				</div>
+			</section>
 			<Footer />
 		</>
 	)
