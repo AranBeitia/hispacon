@@ -13,19 +13,19 @@ export default function Card({ id, title, description, day, hour, image, videoLi
   }
 
   return (
-    <div className="col-lg-4 templatemo-item-col all soon">
+    <div className="col-lg-4 templatemo-item-col">
       <div className="meeting-item">
         <div className="thumb">
-          <div className="price" >
+          <div className="price">
             <span>{hour}</span>
           </div>
           {(pinned) ? 
             <div className="pin-event" >
-              <span><img src={bookmarkFull} alt="Eliminar evento de favoritos" onClick={() => {handlePinClick("delete", id)}} /></span>
+              <img src={bookmarkFull} alt="Eliminar evento de favoritos" onClick={() => {handlePinClick("delete", id)}} />
             </div>
           :
             <div className="pin-event" >
-              <span><img src={bookmarkOutline} alt="Guardar evento como favorito" onClick={() => {handlePinClick("save", id)}} /></span>
+              <img src={bookmarkOutline} alt="Guardar evento como favorito" onClick={() => {handlePinClick("save", id)}} />
             </div>
           }
           <img src={image} alt={title} />
