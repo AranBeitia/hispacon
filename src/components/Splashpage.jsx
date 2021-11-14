@@ -2,7 +2,7 @@
 
 export default function Splashpage({subtitle, title, description, linkText, link, video}) {
   return (
-    <section className="section main-banner" id="top" data-section="section1"> {/* ESTE SECTION ES WRAPPER DE TODO EL "MAIN", PARA PODER HACER AQUÍ EL ROUTER */}
+    <section className="section main-banner" id="top" data-section="section1">
       <video autoPlay muted loop id="bg-video">
         <source src={video} type="video/mp4" />
       </video>

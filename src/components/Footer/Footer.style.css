@@ -1,5 +1,6 @@
 .footer-bg {
-  background-image: url(../../assets/images/template/meetings-bg.jpg);
+  background-color: #20272c;
+  /* background-image: url(../../assets/images/template/meetings-bg.jpg); */
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
