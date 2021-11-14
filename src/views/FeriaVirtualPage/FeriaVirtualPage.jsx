@@ -1,6 +1,6 @@
-import HeaderNav from '../components/HeaderNav/HeaderNav'
-import Hero from '../components/Hero/Hero'
-import Footer from '../components/Footer/Footer'
+import HeaderNav from '../../components/HeaderNav/HeaderNav'
+import Hero from '../../components/Hero/Hero'
+import Footer from '../../components/Footer/Footer'
 
 import data from '../../assets/data/feria.json'
 
