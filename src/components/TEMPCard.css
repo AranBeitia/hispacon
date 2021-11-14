@@ -8,3 +8,8 @@
 .youtube-icon {
   width: 2rem;
 }
+
+.pin-event {
+  width: 2rem;
+  cursor: pointer;
+}
