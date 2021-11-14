@@ -110,7 +110,7 @@ export default function ProgramaPage() {
 	return (
 		<div>
 			<HeaderNav />
-			<Hero title={'programa'} description={'programita'}/>
+			<Hero id={1} title={'programa'} description={'programita'}/>
 			<section className="wrapper">
 				<div className="container">
 					<div className="row">
@@ -143,6 +143,7 @@ export default function ProgramaPage() {
 								</div>
 							</div>
 						</div>
+						<div className="grid-layout">
 						{events.map((cardInfo) => (
 							<Card
 								key={cardInfo.id}
@@ -158,6 +159,7 @@ export default function ProgramaPage() {
 								isPinned={isPinned}
 							/>
 						))}
+						</div>
 					</div>
 				</div>
 			</section>

@@ -13,32 +13,59 @@ export default function Card({ id, title, description, day, hour, image, videoLi
   }
 
   return (
-    <div className="col-lg-4 templatemo-item-col">
-      <div className="meeting-item">
-        <div className="thumb">
-          <div className="price">
-            <span>{hour}</span>
-          </div>
-          {(pinned) ? 
-            <div className="pin-event" >
-              <img src={bookmarkFull} alt="Eliminar evento de favoritos" onClick={() => {handlePinClick("delete", id)}} />
-            </div>
-          :
-            <div className="pin-event" >
-              <img src={bookmarkOutline} alt="Guardar evento como favorito" onClick={() => {handlePinClick("save", id)}} />
-            </div>
-          }
-          <img src={image} alt={title} />
+
+    <div className="meeting-item">
+      <div className="thumb">
+        <div className="price">
+          <span>{hour}</span>
         </div>
-        <div className="down-content">
-          <div className="date">
-            <h6>Nov <span>{day}</span></h6>
+        {(pinned) ? 
+          <div className="pin-event" >
+            <img src={bookmarkFull} alt="Eliminar evento de favoritos" onClick={() => {handlePinClick("delete", id)}} />
           </div>
-          <h4>{title}</h4>
-          <p>{description}</p>
-          {videoLink === null ? null : <a href={videoLink}><img src={youtubeIcon} alt="Go to live Youtube Channel" className="youtube-icon" /></a> }
+        :
+          <div className="pin-event" >
+            <img src={bookmarkOutline} alt="Guardar evento como favorito" onClick={() => {handlePinClick("save", id)}} />
+          </div>
+        }
+        <img src={image} alt={title} />
+      </div>
+      <div className="down-content">
+        <div className="date">
+          <h6>Nov <span>{day}</span></h6>
         </div>
+        <h4>{title}</h4>
+        <p>{description}</p>
+        {videoLink === null ? null : <a href={videoLink}><img src={youtubeIcon} alt="Go to live Youtube Channel" className="youtube-icon" /></a> }
       </div>
     </div>
+
+    // <div className="col-lg-4 templatemo-item-col">
+    //   <div className="meeting-item">
+    //     <div className="thumb">
+    //       <div className="price">
+    //         <span>{hour}</span>
+    //       </div>
+    //       {(pinned) ? 
+    //         <div className="pin-event" >
+    //           <img src={bookmarkFull} alt="Eliminar evento de favoritos" onClick={() => {handlePinClick("delete", id)}} />
+    //         </div>
+    //       :
+    //         <div className="pin-event" >
+    //           <img src={bookmarkOutline} alt="Guardar evento como favorito" onClick={() => {handlePinClick("save", id)}} />
+    //         </div>
+    //       }
+    //       <img src={image} alt={title} />
+    //     </div>
+    //     <div className="down-content">
+    //       <div className="date">
+    //         <h6>Nov <span>{day}</span></h6>
+    //       </div>
+    //       <h4>{title}</h4>
+    //       <p>{description}</p>
+    //       {videoLink === null ? null : <a href={videoLink}><img src={youtubeIcon} alt="Go to live Youtube Channel" className="youtube-icon" /></a> }
+    //     </div>
+    //   </div>
+    // </div>
   )
 }

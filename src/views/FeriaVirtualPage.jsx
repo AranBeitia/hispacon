@@ -7,6 +7,7 @@ export default function FeriaVirtualPage() {
 		<>
 			<HeaderNav />
 			<Hero
+				id={2}
 				title={'Segunda Feria Virtual del libro de género'}
 				description={'Feria virtual'}
 			/>

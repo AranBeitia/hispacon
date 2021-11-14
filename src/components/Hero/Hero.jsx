@@ -1,8 +1,9 @@
 import React from 'react'
+import './Hero.style.scss'
 
-export default function Hero({title, description}) {
+export default function Hero({title, description, id}) {
 	return (
-		<section className="heading-page header-text" id="top">
+		<section className={`bg-img bg-img-${id} hero header-text`}>
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-12">

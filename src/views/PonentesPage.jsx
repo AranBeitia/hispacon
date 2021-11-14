@@ -7,6 +7,7 @@ export default function PonentesPage() {
 		<div>
 			<HeaderNav />
 			<Hero
+				id={2}
 				title={'Ponentes'}
 				description={'Ponentes'}
 			/>
