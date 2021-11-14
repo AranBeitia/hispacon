@@ -1,8 +1,9 @@
-import {AACC,	AKIRA,	GIGAMESH,	INSOLITA,	MUNDOS,	MUSEOS,	QCENTER,	ROSSA,	SHOGUN,	UMA, DUERMEVELA} from '../assets/images/partners'
+import {AACC,	AKIRA,	GIGAMESH,	INSOLITA,	MUNDOS,	MUSEOS,	QCENTER,	ROSSA,	SHOGUN,	UMA, DUERMEVELA} from '../../assets/images/partners'
+import './Footer.style.css'
 
 export default function Footer() {
   return (
-    <section className="contact-us" id="contact">
+    <section className="footer-bg">
     <div className="footer">
       <p>
         Copyright © {new Date().getFullYear()} Pórtico · Asociación Española de Fantasía, Ciencia Ficción y Terror · Todos los derechos reservados
@@ -46,6 +47,6 @@ export default function Footer() {
 
       </div>
     </div>
-  </section>
+    </section>
   )
 }

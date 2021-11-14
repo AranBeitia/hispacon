@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import './Card.style.css'
 import youtubeIcon from '../../assets/images/icons/youtube-icon.svg'
 import bookmarkOutline from '../../assets/images/icons/bookmark-outline.svg'
 import bookmarkFull from '../../assets/images/icons/bookmark-full.svg'
@@ -34,7 +34,7 @@ export default function Card({ id, title, description, day, hour, image, videoLi
           <div className="date">
             <h6>Nov <span>{day}</span></h6>
           </div>
-          <a href="meeting-details.html"><h4>{title}</h4></a>
+          <h4>{title}</h4>
           <p>{description}</p>
           {videoLink === null ? null : <a href={videoLink}><img src={youtubeIcon} alt="Go to live Youtube Channel" className="youtube-icon" /></a> }
         </div>

@@ -1,6 +1,6 @@
 import HeaderNav from '../components/HeaderNav/HeaderNav'
 import Splashpage from '../components/Splashpage'
-import Footer from '../components/Footer'
+import Footer from '../components/Footer/Footer'
 import pdfPortico from '../assets/docs/jornadasPortico.pdf'
 import jornadasVideo from '../assets/video/jornadas.mp4'
 

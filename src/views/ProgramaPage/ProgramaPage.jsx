@@ -1,13 +1,12 @@
-import HeaderNav from '../components/HeaderNav/HeaderNav'
-import Footer from '../components/Footer'
-import Card from '../components/Card/Card'
-import '../components/Card/Card.style.css' //! PENDING REMOVE
-import data from '../assets/data/programa.json'
-
-import ignotus from '../assets/images/events/ignotus.jpg'
-import visiones from '../assets/images/events/visiones.jpg'
-import opportunity from '../assets/images/events/opportunity.jpg'
-import Hero from '../components/Hero/Hero'
+import HeaderNav from '../../components/HeaderNav/HeaderNav'
+import Footer from '../../components/Footer/Footer'
+import Card from '../../components/Card/Card'
+import data from '../../assets/data/programa.json'
+import './ProgramaPage.style.css'
+import ignotus from '../../assets/images/events/ignotus.jpg'
+import visiones from '../../assets/images/events/visiones.jpg'
+import opportunity from '../../assets/images/events/opportunity.jpg'
+import Hero from '../../components/Hero/Hero'
 import { useState, useEffect } from 'react'
 
 export default function ProgramaPage() {
@@ -112,13 +111,13 @@ export default function ProgramaPage() {
 		<div>
 			<HeaderNav />
 			<Hero />
-			<section class="meetings-page" id="meetings">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12">
-							<div class="row">
-								<div class="col-lg-12">
-									<div class="filters">
+			<section className="wrapper">
+				<div className="container">
+					<div className="row">
+						<div className="col-lg-12">
+							<div className="row">
+								<div className="col-lg-12">
+									<div className="filters">
 									{pinnedEvents.length > 0 ?
 										<ul>
 											<li onClick={() => {getEventsDay("all")}}>Todos</li>
@@ -142,31 +141,27 @@ export default function ProgramaPage() {
 											</ul>
 									</div>
 								</div>
-								<div class="col-lg-12">
-									<div class="row grid">
-										{events.map((cardInfo) => (
-											<Card
-												key={cardInfo.id}
-												id={cardInfo.id}
-												title={cardInfo.title}
-												description={cardInfo.description}
-												day={cardInfo.day}
-												hour={cardInfo.hour}
-												image={getImagePath(cardInfo.image)}
-												videoLink={cardInfo.videoLink}
-												pinEvent={isPinned(cardInfo.id)}
-												handlePinnedEvent={handlePinnedEvent}
-												isPinned={isPinned}
-											/>
-										))}
-									</div>
-								</div>
 							</div>
 						</div>
+						{events.map((cardInfo) => (
+							<Card
+								key={cardInfo.id}
+								id={cardInfo.id}
+								title={cardInfo.title}
+								description={cardInfo.description}
+								day={cardInfo.day}
+								hour={cardInfo.hour}
+								image={getImagePath(cardInfo.image)}
+								videoLink={cardInfo.videoLink}
+								pinEvent={isPinned(cardInfo.id)}
+								handlePinnedEvent={handlePinnedEvent}
+								isPinned={isPinned}
+							/>
+						))}
 					</div>
 				</div>
-				<Footer />
 			</section>
+			<Footer />
 		</div>
 	)
 }

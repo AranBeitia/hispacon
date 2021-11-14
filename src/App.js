@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 // import $ from 'jquery'
 import HomePage from './views/HomePage'
 import PonentesPage from './views/PonentesPage'
-import ProgramaPage from './views/ProgramaPage'
+import ProgramaPage from './views/ProgramaPage/ProgramaPage'
 import FeriaVirtualPage from './views/FeriaVirtualPage'
 import JornadasPage from './views/JornadasPage'
 

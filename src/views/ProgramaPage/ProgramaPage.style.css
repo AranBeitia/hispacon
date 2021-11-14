@@ -1,0 +1,34 @@
+.wrapper {
+	background-image: url(../../assets/images/template/meetings-page-bg.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 0px;
+}
+
+.filters {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.filters li {
+  font-size: 13px;
+  color: #a12c2f;
+  background-color: #fff;
+  padding: 5px 20px;
+  display: inline-block;
+  border-radius: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all .3s;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.filters ul li.active,
+.filters ul li:hover {
+  background-color: #a12c2f;
+  color: #fff;
+}

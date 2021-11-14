@@ -1,6 +1,6 @@
 import HeaderNav from '../components/HeaderNav/HeaderNav'
 import Splashpage from '../components/Splashpage'
-import Footer from '../components/Footer'
+import Footer from '../components/Footer/Footer'
 
 import homeVideo from '../assets/video/home.mp4'
 
