@@ -6,7 +6,10 @@ export default function PonentesPage() {
 	return (
 		<div>
 			<HeaderNav />
-			<Hero />
+			<Hero
+				title={'Ponentes'}
+				description={'Ponentes'}
+			/>
 			<h1>Ponentes page</h1>
 			<Footer />
 		</div>

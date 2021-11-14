@@ -110,7 +110,7 @@ export default function ProgramaPage() {
 	return (
 		<div>
 			<HeaderNav />
-			<Hero />
+			<Hero title={'programa'} description={'programita'}/>
 			<section className="wrapper">
 				<div className="container">
 					<div className="row">
