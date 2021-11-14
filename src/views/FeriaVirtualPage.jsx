@@ -10,7 +10,6 @@ export default function FeriaVirtualPage() {
 				title={'Segunda Feria Virtual del libro de género'}
 				description={'Feria virtual'}
 			/>
-			<h1>FeriaVirtualPage</h1>
 			<Footer />
 		</>
 	)
