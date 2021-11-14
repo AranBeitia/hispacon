@@ -1,4 +1,4 @@
-import Header from '../components/Header'
+import HeaderNav from '../components/HeaderNav/HeaderNav'
 import Splashpage from '../components/Splashpage'
 import Footer from '../components/Footer'
 
@@ -7,7 +7,7 @@ import homeVideo from '../assets/video/home.mp4'
 export default function PonentesPage() {
 	return (
 		<>
-			<Header />
+			<HeaderNav />
 			<Splashpage
 				subtitle="¡Bienvenido!"
 				title="Hispacon 2021"

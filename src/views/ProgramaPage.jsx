@@ -1,4 +1,4 @@
-import Header from '../components/Header'
+import HeaderNav from '../components/HeaderNav/HeaderNav'
 import Footer from '../components/Footer'
 import Card from '../components/Card'
 
@@ -110,7 +110,7 @@ export default function ProgramaPage() {
 
 	return (
 		<div>
-			<Header />
+			<HeaderNav />
 			<h1>Programa page</h1>
 			<h1>Programa page</h1>
 			<h1>Programa page</h1>

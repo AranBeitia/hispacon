@@ -8,12 +8,6 @@ import FeriaVirtualPage from './views/FeriaVirtualPage'
 import JornadasPage from './views/JornadasPage'
 
 function App() {
-	// if ($('.menu-trigger').length) {
-	// 	$('.menu-trigger').on('click', function () {
-	// 		$(this).toggleClass('active')
-	// 		$('.header-area .nav').slideToggle(200)
-	// 	})
-	// }
 	return (
 		<Routes>
 			<Route exact path="/" element={<HomePage />} />
