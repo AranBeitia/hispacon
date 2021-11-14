@@ -1,10 +1,671 @@
 [
   {
-    "title": "Inauguración",
-    "description": "Evento oficial",
-    "day": 19,
-    "hour": "10:00 - 10:30",
-    "image": "",
-    "videoLink": ""
+      "id": "1",
+      "title": "Inauguración + Conversación con Roberto López-Herrero",
+      "description": "Evento oficial",
+      "day": "19",
+      "hour": "10:00 - 11:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
+  },
+  {
+      "id": "2",
+      "title": "\r\n100 años del nacimiento de Stanislaw Lem: Un legado de ideas",
+      "day": "19",
+      "hour": "11:00 - 12:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
+  },
+  {
+      "id": "3",
+      "title": "Mortífagos en Invernalia: La traducción de neologismos en la fantasía y la cifi",
+      "day": "19",
+      "hour": "11:00 - 12:00",
+      "image": "opportunity",
+      "videoLink": "https://www.youtube.com/channel/UCEv3bbwi46oHRJ_gXdb9V5Q",
+      "room": "Opportunity"
+  },
+  {
+      "id": "4",
+      "title": "Presentación: Ediciones SECC",
+      "day": "19",
+      "hour": "11:00 - 11:30",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "5",
+      "title": "Presentación: Insomnia",
+      "day": "19",
+      "hour": "11:30 - 12:00",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "6",
+      "title": "Presentación: Minotauro",
+      "day": "19",
+      "hour": "12:00 - 12:30",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "7",
+      "title": "Presentación: Crononauta",
+      "day": "19",
+      "hour": "12:30 - 13:00",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "8",
+      "title": "Isa? Charla SOBRE Sanderson, no CON Sanderson",
+      "day": "19",
+      "hour": "13:00 - 14:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
+  },
+  {
+      "id": "9",
+      "title": "Presentación: Arima",
+      "day": "19",
+      "hour": "13:00 - 13:30",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "10",
+      "title": "Presentación: Rayo Verde/Raig Verde",
+      "day": "19",
+      "hour": "13:30 - 14:00",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "11",
+      "title": "No te limites al grifo: Aves mitológicas menos conocidas para dar variedad a tus escritos",
+      "day": "19",
+      "hour": "15:00 - 16:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
+  },
+  {
+      "id": "12",
+      "title": "Presentación: Obscura",
+      "day": "19",
+      "hour": "15:30 - 16:00",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "13",
+      "title": "Cordilleras de tinta: Rol y mapas",
+      "day": "19",
+      "hour": "16:00 - 17:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
+  },
+  {
+      "id": "14",
+      "title": "Ecofeminismo: sin igualdad no salvaremos la Tierra",
+      "day": "19",
+      "hour": "16:00 - 17:00",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "15",
+      "title": "Mesa redonda: El infinito en un verso. Poesía de ciencia-ficción y fantasía",
+      "day": "19",
+      "hour": "17:00 - 18:00",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "16",
+      "title": "Presentación de la antología del premio Domingo Santos de Relato 2021",
+      "day": "19",
+      "hour": "18:00 - 19:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
+  },
+  {
+      "id": "17",
+      "title": "Héroes, villanos y \"lo de en medio\" - Mesa  redonda sobre personajes",
+      "day": "19",
+      "hour": "18:00 - 19:00",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "18",
+      "title": "El vampiro en la literatura: mitos, evoluciones y otras idas de olla",
+      "day": "19",
+      "hour": "18:00 - 19:00",
+      "image": "opportunity",
+      "videoLink": "https://www.youtube.com/channel/UCEv3bbwi46oHRJ_gXdb9V5Q",
+      "room": "Opportunity"
+  },
+  {
+      "id": "19",
+      "title": "Conversación con Jo Walton",
+      "day": "19",
+      "hour": "19:00 - 20:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
+  },
+  {
+      "id": "20",
+      "title": "Construyendo una novela de ciencia--ficción",
+      "day": "19",
+      "hour": "19:00 - 20:00",
+      "image": "opportunity",
+      "videoLink": "https://www.youtube.com/channel/UCEv3bbwi46oHRJ_gXdb9V5Q",
+      "room": "Opportunity"
+  },
+  {
+      "id": "21",
+      "title": "Planetas Visibles: La internacionalización silenciosa de la ciencia-ficción china",
+      "day": "20",
+      "hour": "10:00 - 11:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
+  },
+  {
+      "id": "22",
+      "title": "Presentación: Aloha",
+      "day": "20",
+      "hour": "10:00 - 10:30",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "23",
+      "title": "Presentación: Aristas Martínez",
+      "day": "20",
+      "hour": "10:30 - 11:00",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "24",
+      "title": "Misma historia, otros ojos: La religión y el mito en los videojuegos",
+      "day": "20",
+      "hour": "11:00 - 12:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
+  },
+  {
+      "id": "25",
+      "title": "Presentación: Dilatando Mentes",
+      "day": "20",
+      "hour": "11:00 - 11:30",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "26",
+      "title": "Presentación: La Biblioteca de Carfax",
+      "day": "20",
+      "hour": "11:30 - 12:00",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "27",
+      "title": "Diseña tu universo: worldbuilding en siete líneas",
+      "day": "20",
+      "hour": "12:00 - 13:00",
+      "image": "opportunity",
+      "videoLink": "https://www.youtube.com/channel/UCEv3bbwi46oHRJ_gXdb9V5Q",
+      "room": "Opportunity"
+  },
+  {
+      "id": "28",
+      "title": "De \"El Día de la Bestia\" a \"El Laberinto del Fauno\": medio siglo y 9 Goyas haciendo magia [Reyes Abades]",
+      "day": "20",
+      "hour": "12:00 - 13:00",
+      "room": "Externos"
+  },
+  {
+      "id": "29",
+      "title": "Territori del terror - Autores d'horror de proximitat",
+      "day": "20",
+      "hour": "12:00 - 13:00",
+      "room": "Externos"
+  },
+  {
+      "id": "30",
+      "title": "Presentación: Cerbero",
+      "day": "20",
+      "hour": "12:00 - 12:30",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "31",
+      "title": "Presentación: Pez de Plaza",
+      "day": "20",
+      "hour": "12:30 - 13:00",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "32",
+      "title": "Esto es lo que hacía Ibai, ¿no?: Cómo divulgar literatura en Twitch",
+      "day": "20",
+      "hour": "13:00 - 14:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
+  },
+  {
+      "id": "33",
+      "title": "Editando librojuegos: cómo, qué y por qué",
+      "day": "20",
+      "hour": "13:00 - 14:00",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "34",
+      "title": "Noir fantástico: una combinación fabulosa",
+      "day": "20",
+      "hour": "15:00 - 16:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
+  },
+  {
+      "id": "35",
+      "title": "Windumanoth Podcast",
+      "day": "20",
+      "hour": "15:00 - 16:00",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "36",
+      "title": "Y Caperucita decidió tomar un taxi: Videojuegos, animación y narración interactiva",
+      "day": "20",
+      "hour": "16:00 - 17:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
+  },
+  {
+      "id": "37",
+      "title": "Radioficción y arqueología literaria",
+      "day": "20",
+      "hour": "16:00 - 17:00",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "38",
+      "title": "Conversación con Conchi Regueiro",
+      "day": "20",
+      "hour": "16:00 - 17:00",
+      "image": "opportunity",
+      "videoLink": "https://www.youtube.com/channel/UCEv3bbwi46oHRJ_gXdb9V5Q",
+      "room": "Opportunity"
+  },
+  {
+      "id": "39",
+      "title": "Conversación con P. Djèlí Clark",
+      "day": "20",
+      "hour": "17:00 - 18:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
+  },
+  {
+      "id": "40",
+      "title": "Rol en el aula",
+      "day": "20",
+      "hour": "17:00 - 18:00",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "41",
+      "title": "Crónicas (científicas) marcianas",
+      "day": "20",
+      "hour": "17:00 - 18:00",
+      "image": "opportunity",
+      "videoLink": "https://www.youtube.com/channel/UCEv3bbwi46oHRJ_gXdb9V5Q",
+      "room": "Opportunity"
+  },
+  {
+      "id": "42",
+      "title": "Cuéntala otra vez - El retelling como técnica narrativa",
+      "day": "20",
+      "hour": "17:00 - 18:00",
+      "room": "Externos"
+  },
+  {
+      "id": "43",
+      "title": "Are we the baddies? - Nadie es el villano de su propia historia",
+      "day": "20",
+      "hour": "17:15 - 18:15",
+      "room": "Externos"
+  },
+  {
+      "id": "44",
+      "title": "Literatura latinoamericana: estrategias de resistencia desde los géneros no realistas",
+      "day": "20",
+      "hour": "18:00 - 19:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
+  },
+  {
+      "id": "45",
+      "title": "Serial killers: Los asesinos en serie y la ficción (cine, literatura, cómic, videojuego)",
+      "day": "20",
+      "hour": "18:00 - 19:00",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "46",
+      "title": "La vida secreta de las casas encantadas",
+      "day": "20",
+      "hour": "18:15 - 19:15",
+      "room": "Externos"
+  },
+  {
+      "id": "47",
+      "title": "Gente que hace cosas - Creación de espacios culturales propios",
+      "day": "20",
+      "hour": "18:30 - 19:30",
+      "room": "Externos"
+  },
+  {
+      "id": "48",
+      "title": "Conversación con Silvia Moreno-García",
+      "day": "20",
+      "hour": "19:00 - 20:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
+  },
+  {
+      "id": "49",
+      "title": "Conversación con Derek Kunsken",
+      "day": "20",
+      "hour": "19:00 - 20:00",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "50",
+      "title": "Aliens 101: de cero a especie (en un pispás)",
+      "day": "20",
+      "hour": "19:15 - 20:15",
+      "room": "Externos"
+  },
+  {
+      "id": "51",
+      "title": "El futuro del futuro: Imaginando la ciencia-ficción de la sociedad post-capitalista",
+      "day": "20",
+      "hour": "19:30 - 20:30",
+      "room": "Externos"
+  },
+  {
+      "id": "52",
+      "title": "Gala Ignotus - Ceremonia de entrega de los Premios Ignotus 2021",
+      "day": "20",
+      "hour": "21:00 - 22:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
+  },
+  {
+      "id": "53",
+      "title": "Tolkien mainstream",
+      "day": "21",
+      "hour": "10:00 - 11:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
+  },
+  {
+      "id": "54",
+      "title": "Presentación: Niña Loba",
+      "day": "21",
+      "hour": "10:00 - 10:30",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "55",
+      "title": "Presentación: Premium",
+      "day": "21",
+      "hour": "10:30 - 11:00",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "56",
+      "title": "Porque yo lo valgo: Autopublicar con calidad profesional",
+      "day": "21",
+      "hour": "11:00 - 12:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
+  },
+  {
+      "id": "57",
+      "title": "Presentación: Literup",
+      "day": "21",
+      "hour": "11:00 - 11:30",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "58",
+      "title": "Presentación: Con Pluma y Píxel",
+      "day": "21",
+      "hour": "11:30 - 12:00",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "59",
+      "title": "Presentación de la Fabricantes de Sueños 2016-2017",
+      "day": "21",
+      "hour": "12:00 - 13:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
+  },
+  {
+      "id": "60",
+      "title": "Presentación del premio Domingo Santos de Novela 2021",
+      "day": "21",
+      "hour": "12:00 - 13:00",
+      "image": "opportunity",
+      "videoLink": "https://www.youtube.com/channel/UCEv3bbwi46oHRJ_gXdb9V5Q",
+      "room": "Opportunity"
+  },
+  {
+      "id": "61",
+      "title": "Presentación: Duermevela",
+      "day": "21",
+      "hour": "12:00 - 12:30",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "62",
+      "title": "Presentación: Dorna",
+      "day": "21",
+      "hour": "12:30 - 13:00",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "63",
+      "title": "Joven promesa a los 40: La experiencia de ser autores noveles cuando ya se peinan canas",
+      "day": "21",
+      "hour": "13:00 - 14:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
+  },
+  {
+      "id": "64",
+      "title": "Presentación: Roomie",
+      "day": "21",
+      "hour": "13:00 - 13:30",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "65",
+      "title": "Presentación: La máquina que hace ping!",
+      "day": "21",
+      "hour": "13:30 - 14:00",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "66",
+      "title": "La ficción como reflejo de la historia y la economía",
+      "day": "21",
+      "hour": "15:00 - 16:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
+  },
+  {
+      "id": "67",
+      "title": "De cómo gestionar un proyecto de crowdfunding y no perder a nadie por el camino",
+      "day": "21",
+      "hour": "15:00 - 16:00",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "68",
+      "title": "Rol de hemen, enllà y acolá: Rol en las lenguas minorizadas de la Península",
+      "day": "21",
+      "hour": "16:00 - 17:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
+  },
+  {
+      "id": "69",
+      "title": "Humor y literatura fantástica: sí, siempre",
+      "day": "21",
+      "hour": "16:00 - 17:00",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "70",
+      "title": "La tercera nave: Bibliotecas para encontrarlos a todos",
+      "day": "21",
+      "hour": "17:00 - 18:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
+  },
+  {
+      "id": "71",
+      "title": "La arquitectura de la sangre: El vampiro en presentaciones multiplataforma",
+      "day": "21",
+      "hour": "17:00 - 18:00",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "72",
+      "title": "Presentación de la Visiones 2021",
+      "day": "21",
+      "hour": "18:00 - 19:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
+  },
+  {
+      "id": "73",
+      "title": "Convenciones post-pandemia ",
+      "day": "21",
+      "hour": "18:00 - 19:00",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "74",
+      "title": "Conversación con Seanan McGuire",
+      "day": "21",
+      "hour": "19:00 - 20:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
+  },
+  {
+      "id": "75",
+      "title": "La Academia contraataca: Reflexión y resistencia en torno a la narrativa de género latinoamericana",
+      "day": "21",
+      "hour": "19:00 - 20:00",
+      "image": "visiones",
+      "videoLink": "https://www.youtube.com/channel/UCfsmsEjE1RA79WMooZpJu2Q",
+      "room": "Visiones"
+  },
+  {
+      "id": "76",
+      "title": "Clausura",
+      "day": "21",
+      "hour": "20:00 - 21:00",
+      "image": "ignotus",
+      "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
+      "room": "Ignotus"
   }
 ]
