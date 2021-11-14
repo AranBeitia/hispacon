@@ -1,4 +1,4 @@
-import youtubeIcon from '../assets/images/icons/youtube-icon.svg'
+import youtubeIcon from '../../assets/images/icons/youtube-icon.svg'
 
 export default function Card({ title, description, day, hour, image, videoLink, changeEvents }) {
   return (

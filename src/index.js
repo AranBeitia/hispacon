@@ -1,6 +1,5 @@
 import React from 'react'
 import './index.css'
-import './components/TEMPCard.css' //! PENDING REMOVE
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 import { render } from 'react-dom'
