@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom'
 import HomePage from './views/HomePage'
 import PonentesPage from './views/PonentesPage'
 import ProgramaPage from './views/ProgramaPage/ProgramaPage'
-import FeriaVirtualPage from './views/FeriaVirtualPage'
+import FeriaVirtualPage from './views/FeriaVirtualPage/FeriaVirtualPage'
 import JornadasPage from './views/JornadasPage'
 
 function App() {
