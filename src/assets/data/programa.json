@@ -205,9 +205,8 @@
             "description": "Con Isa J. González, Laura S. Maquilón y Caryanna Reuven",
             "day": "19",
             "hour": "19:00 - 20:00",
-            "image": "opportunity",
-            "videoLink": "https://www.youtube.com/channel/UCEv3bbwi46oHRJ_gXdb9V5Q",
-            "room": "Opportunity"
+            "image": "gigamesh",
+            "room": "Sedes"
         },
         {
             "id": "22",
@@ -284,7 +283,8 @@
             "description": "Con Reyes Abades e Isabel Clemente",
             "day": "20",
             "hour": "12:00 - 13:00",
-            "room": "Externos"
+            "image": "akira",
+            "room": "Sedes"
         },
         {
             "id": "30",
@@ -292,7 +292,8 @@
             "description": "Con Sofía Rhei, Elena Bartomeu y Sònia Boj",
             "day": "20",
             "hour": "12:00 - 13:00",
-            "room": "Externos"
+            "image": "insolita",
+            "room": "Sedes"
         },
         {
             "id": "31",
@@ -420,7 +421,8 @@
             "description": "Con Iria G. Parente, Selene M. Pascual, Enerio Dima, H.M. Zubieta y Andrés Zelada (moderación)",
             "day": "20",
             "hour": "17:00 - 18:00",
-            "room": "Externos"
+            "image": "akira",
+            "room": "Sedes"
         },
         {
             "id": "44",
@@ -428,7 +430,8 @@
             "description": "Con Aitor Díaz, Virginia Buedo y Yaiza Carrasco",
             "day": "20",
             "hour": "17:15 - 18:15",
-            "room": "Externos"
+            "image": "mundos",
+            "room": "Sedes"
         },
         {
             "id": "45",
@@ -456,7 +459,8 @@
             "description": "Con Aitor Díaz, Andrea Penalva y Virginia Buedo",
             "day": "20",
             "hour": "18:15 - 19:15",
-            "room": "Externos"
+            "image": "mundos",
+            "room": "Sedes"
         },
         {
             "id": "48",
@@ -464,7 +468,8 @@
             "description": "Con L. G. Morgan y Chabier Nogueras Corral",
             "day": "20",
             "hour": "18:30 - 19:30",
-            "room": "Externos"
+            "image": "pantera",
+            "room": "Sedes"
         },
         {
             "id": "49",
@@ -492,7 +497,8 @@
             "description": "Con Andrea Penalva, Irene Robles y Manuel Ortiz",
             "day": "20",
             "hour": "19:15 - 20:15",
-            "room": "Externos"
+            "image": "mundos",
+            "room": "Sedes"
         },
         {
             "id": "52",
@@ -500,7 +506,8 @@
             "description": "Con Miriam Jiménez Iriarte y Sergio Mars",
             "day": "20",
             "hour": "19:30 - 20:30",
-            "room": "Externos"
+            "image": "pantera",
+            "room": "Sedes"
         },
         {
             "id": "53",

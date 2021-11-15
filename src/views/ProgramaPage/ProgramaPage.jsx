@@ -1,13 +1,22 @@
 import HeaderNav from '../../components/HeaderNav/HeaderNav'
-import Footer from '../../components/Footer/Footer'
+import Hero from '../../components/Hero/Hero'
 import Card from '../../components/Card/Card'
+import Footer from '../../components/Footer/Footer'
+
 import data from '../../assets/data/programa.json'
+
+import { useState, useEffect } from 'react'
+
 import './ProgramaPage.style.css'
+
 import ignotus from '../../assets/images/events/ignotus.jpg'
 import visiones from '../../assets/images/events/visiones.jpg'
 import opportunity from '../../assets/images/events/opportunity.jpg'
-import Hero from '../../components/Hero/Hero'
-import { useState, useEffect } from 'react'
+import gigamesh from '../../assets/images/events/gigamesh.jpg'
+import insolita from '../../assets/images/events/insolita.jpg'
+// import akira from '../../assets/images/events/akira.jpg'
+import mundos from '../../assets/images/events/80mundos.jpg'
+import pantera from '../../assets/images/events/pantera.jpg'
 
 export default function ProgramaPage() {
 
@@ -31,6 +40,16 @@ export default function ProgramaPage() {
 				return visiones
 			case "opportunity":
 				return opportunity
+			case "gigamesh":
+				return gigamesh
+			case "insolita":
+				return insolita
+			// case "akira":
+			// 	return akira
+			case "mundos":
+				return mundos
+			case "pantera":
+				return pantera
 			default:
 				break;
 		}
@@ -137,8 +156,8 @@ export default function ProgramaPage() {
 												<li onClick={() => {getEventsRoom("Ignotus")}}>Ignotus</li>
 												<li onClick={() => {getEventsRoom("Visiones")}}>Visiones</li>
 												<li onClick={() => {getEventsRoom("Opportunity")}}>Opportunity</li>
-												<li onClick={() => {getEventsRoom("Jornadas")}}>Jornadas</li>
-												<li onClick={() => {getEventsRoom("Externos")}}>Externos</li>
+												{/* <li onClick={() => {getEventsRoom("Jornadas")}}>Jornadas</li> */}
+												<li onClick={() => {getEventsRoom("Sedes")}}>Sedes</li>
 											</ul>
 									</div>
 								</div>
