@@ -1,11 +1,68 @@
-.youtube-icon {
-  width: 2rem;
+.card-item {
+  position: relative;
+
+  .pin-event {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 2rem;
+    cursor: pointer;
+  }
+
+  &__down-content {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 240px;
+
+    h4 {
+      font-size: 16px;
+      color: #1f272b;
+      font-weight: 600;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #1f272b;
+      font-size: 14px;
+    }
+
+    .text-content {
+      height: 100px;
+      overflow-y: scroll;
+    
+      @media all and (max-width: 480px) {
+        height: auto;
+      }
+    }
+  }
+
+  &__date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    h6 {
+      font-size: 13px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: #a12c2f;
+    }
+
+    span {
+      display: block;
+      color: #1f272b;
+      font-size: 22px;
+      margin-top: 7px;
+    }
+
+    .youtube-icon {
+      width: 2.6rem;
+    }
+  }
 }
 
-.pin-event {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  width: 2rem;
-  cursor: pointer;
-}
+

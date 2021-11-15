@@ -13,7 +13,7 @@ export default function Card({ id, title, description, day, hour, image, videoLi
   }
 
   return (
-    <div className="meeting-item">
+    <div className="meeting-item card-item">
       <div className="thumb">
         <div className="price">
           <span>{hour}</span>
@@ -29,13 +29,20 @@ export default function Card({ id, title, description, day, hour, image, videoLi
         }
         <img src={image} alt={title} />
       </div>
-      <div className="down-content">
-        <div className="date">
+      <div className="card-item__down-content">
+        <div className="card-item__date">
           <h6>Nov <span>{day}</span></h6>
+          {videoLink === null ? 
+          null : 
+          <a href={videoLink}>
+            <img src={youtubeIcon} alt="Go to live Youtube Channel" className="youtube-icon" />
+          </a>
+          }
         </div>
         <h4>{title}</h4>
-        <p>{description}</p>
-        {videoLink === null ? null : <a href={videoLink}><img src={youtubeIcon} alt="Go to live Youtube Channel" className="youtube-icon" /></a> }
+        <div className="text-content">
+          <p>{description}</p>
+        </div>
       </div>
     </div>
   )

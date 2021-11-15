@@ -10,7 +10,7 @@ export default function FeriaCard({ id, name, logo, link, benefit }) {
       <div className="feria-card__down-content">
         <h4 className="feria-card__title">{name}</h4>
         <div className="text-content">
-        <p className="feria-card__text">{benefit}</p>
+          <p className="feria-card__text">{benefit}</p>
         </div>
       </div>
     </div>
