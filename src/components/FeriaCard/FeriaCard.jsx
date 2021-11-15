@@ -1,6 +1,6 @@
 import './FeriaCard.style.scss'
 
-export default function FeriaCard({ id, name, logo, link, benefit }) {
+export default function FeriaCard({ name, logo, link, benefit }) {
   return (
     <a href={link} target="_blank" rel="noreferrer">
     <div className="feria-card">

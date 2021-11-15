@@ -1,6 +1,6 @@
 import HeaderNav from '../components/HeaderNav/HeaderNav'
 import Splashpage from '../components/Splashpage'
-import Footer from '../components/Footer/Footer'
+import FooterPortico from '../components/Footer/FooterPortico'
 import pdfPortico from '../assets/docs/jornadasPortico.pdf'
 import jornadasVideo from '../assets/video/jornadas.mp4'
 
@@ -16,7 +16,7 @@ export default function PonentesPage() {
 				link={pdfPortico}
 				video={jornadasVideo}
 			/>
-			<Footer />
+			<FooterPortico />
 		</>
 	)
 }
