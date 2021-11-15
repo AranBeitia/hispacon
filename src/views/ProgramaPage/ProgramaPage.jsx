@@ -149,9 +149,9 @@ export default function ProgramaPage() {
 										null}
 											<ul>
 												<li onClick={() => {getEventsDay("all")}}>Todos</li>
-												<li onClick={() => {getEventsDay(19)}}>19</li>
-												<li onClick={() => {getEventsDay(20)}}>20</li>
-												<li onClick={() => {getEventsDay(21)}}>21</li>
+												<li onClick={() => {getEventsDay(19)}}>Viernes 19</li>
+												<li onClick={() => {getEventsDay(20)}}>Sábado 20</li>
+												<li onClick={() => {getEventsDay(21)}}>Domingo 21</li>
 											</ul>
 											<ul>
 												<li onClick={() => {getEventsRoom("all")}}>Todos</li>
