@@ -97,6 +97,7 @@ export default function ProgramaPage() {
 				newPinnedEvents = [...prevState, ...eventForHandle]
 				return newPinnedEvents
 			})
+			setPinnedEventExists(true)
 			setTimeout(() => {saveToLocalStorage(newPinnedEvents)}, 500)
 		} else if (action === "delete") {
 			let newPinnedEvents = []
@@ -104,6 +105,7 @@ export default function ProgramaPage() {
 				newPinnedEvents = prevState.filter(event => (event.id !== id))
 				return newPinnedEvents
 			})
+			setPinnedEventExists(true)
 			setTimeout(() => {saveToLocalStorage(newPinnedEvents)}, 500)
 		}
   }
