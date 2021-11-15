@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 export default function Splashpage({subtitle, title, description, linkText, link, video}) {
@@ -16,7 +17,7 @@ export default function Splashpage({subtitle, title, description, linkText, link
                 <p>{description}</p>
                 <div className="main-button-red">
                   <div className="scroll-to-section">
-                    <a href={link}>{linkText}</a>
+                    <Link to={link}>{linkText} </Link>
                   </div>
                 </div>
               </div>
