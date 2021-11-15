@@ -1,132 +1,142 @@
 [
-      {
-          "id": "L001",
-          "name": "Aloha Editorial",
-          "logo": "aloha",
-          "link": "https://www.alohaeditorial.com/",
-          "benefit": "Con el código HISPACON (en mayúsculas y sin tilde) obtendrás el 5% de descuento en tus compras durante la Feria."
-      },
-      {
-          "id": "L002",
-          "name": "Arima Editorial",
-          "logo": "arima",
-          "link": "https://arimaeditorial.com/",
-          "benefit": "Tendrás un 5% de descuento en tus compras durante los días que dure la FVLG para todo el catálogo y el nuevo lanzamiento."
-      },
-      {
-          "id": "L003",
-          "name": "Aristas Martínez",
-          "logo": "aristas",
-          "link": "https://www.aristasmartinez.com/"
-      },
-      {
-          "id": "L004",
-          "name": "Editorial Cerbero",
-          "logo": "cerbero",
-          "link": "https://www.editorialcerbero.com/"
-      },
-      {
-          "id": "L005",
-          "name": "Editorial Con Pluma y Píxel",
-          "logo": "pluma",
-          "link": "https://conplumaypixel.com/",
-          "benefit": "Descuento del 5% en todo el catálogo y regalo en la compra de packs editoriales."
-      },
-      {
-          "id": "L006",
-          "name": "Editorial Crononauta",
-          "logo": "crononauta",
-          "link": "https://www.crononauta.es/",
-          "benefit": "Con el código HISPACON2021 tendrás un 5% de descuento en todos nuestros libros en papel. Para cada pedido de libros en papel con este código se enviará un cuaderno y una chapa de regalo."
-      },
-      {
-          "id": "L007",
-          "name": "Ediciones Dorna",
-          "logo": "dorna",
-          "link": "https://edicionesdorna.com/"
-      },
-      {
-          "id": "L008",
-          "name": "Duermevela Ediciones",
-          "logo": "duermevela",
-          "link": "https://www.duermevelaediciones.es/"
-      },
-      {
-          "id": "L009",
-          "name": "Dilatando Mentes Editorial",
-          "logo": "dmentes",
-          "link": "https://dilatandomenteseditorial.com/"
-      },
-      {
-          "id": "L010",
-          "name": "La biblioteca de Carfax",
-          "logo": "carfax",
-          "link": "https://labibliotecadecarfax.com/",
-          "benefit": "Consigue un 5% de descuento con el código HISPACON2021 y, de regalo, una ilustración de una cubierta y una chapa. Además, envío gratuito por correo ordinario."
-      },
-      {
-          "id": "L011",
-          "name": "La máquina que hace PING!",
-          "logo": "ping",
-          "link": "https://lamaquinaquehaceping.com/"
-      },
-      {
-          "id": "L012",
-          "name": "Insomnia Ediciones",
-          "logo": "insomnia",
-          "link": "https://www.insomniaediciones.com/",
-          "benefit": "Además de un 5% de descuento, participarás en un sorteo de merchandising."
-      },
-      {
-          "id": "L013",
-          "name": "Editorial Niña Loba",
-          "logo": "loba",
-          "link": "https://www.ninalobaeditorial.es/",
-          "benefit": "Tienes un 5% de descuento en todo el catálogo (papel y digital) con el cupón HISPACON2021."
-      },
-      {
-          "id": "L014",
-          "name": "Editorial Pez de plata",
-          "logo": "pezplata",
-          "link": "https://editorialpezdeplata.com/",
-          "benefit": "Tendrás un 5% de descuento en todos los libros adquiridos en nuestra web. Para que sea aplicado, hay que incluir en la casilla de Código Promocional la palabra HISPACON (válido hasta el 30/11/2021). Habrá ofertas de 2x1, 3x2, 4x3 y así sucesivamente. Pez de Plata incluirá en el envío otro libro de género, que elegirá la propia editorial en función del título/títulos comprados), y también una selección de tarjetas postales y marcapáginas.  Todos los lectores que adquieran algunos de nuestros títulos entrarán en un sorteo de una ilustración original y personalizada en papel verjurado 285 gr. El ganador/a protagonizará una portada simulada de Pez de Plata. Además, tendrás el envío gratuito."
-      },
-      {
-          "id": "L015",
-          "name": "Editorial Premium",
-          "logo": "premium",
-          "link": "https://editorialpremium.es/"
-      },
-      {
-          "id": "L016",
-          "name": "Roomie Ediciones",
-          "logo": "roomie",
-          "link": "https://roomieediciones.com/"
-      },
-      {
-          "id": "L017",
-          "name": "Literup Ediciones",
-          "logo": "literup",
-          "link": "https://www.literup.com/",
-          "benefit": "Consigue un 5% de descuento en nuestro catálogo, físico y digital."
-      },
-      {
-          "id": "L018",
-          "name": "Mai Más",
-          "logo": "maimes",
-          "link": "https://www.maimes.cat/"
-      },
-      {
-          "id": "L019",
-          "name": "Obscura Editorial",
-          "logo": "obscura",
-          "link": "https://www.obscura.es/",
-          "benefit": "Consigue un 5% de descuento con el código Hispacón21Obscura y, de regalo, un marcapáginas y material promocional de los libros adquiridos."
-      },
-      {
-          "id": "L020",
-          "name": "Raig Verd/Rayo Verde",
-          "logo": "raigvert",
-          "link": "http://www.rayoverde.es/"
-      }
-  ]
+        {
+            "id": "L001",
+            "name": "Aloha Editorial",
+            "logo": "aloha",
+            "link": "https://www.alohaeditorial.com/",
+            "benefit": "5% de descuento con cód. HISPACON (en mayúsculas, sin tilde)"
+        },
+        {
+            "id": "L002",
+            "name": "Arima Editorial",
+            "logo": "arima",
+            "link": "https://arimaeditorial.com/",
+            "benefit": "5% de descuento en todo el catálogo durante la FVLG y en la preventa de la novedad de noviembre"
+        },
+        {
+            "id": "L003",
+            "name": "Aristas Martínez",
+            "logo": "aristas",
+            "link": "https://www.aristasmartinez.com/"
+        },
+        {
+            "id": "L004",
+            "name": "Editorial Cerbero",
+            "logo": "cerbero",
+            "link": "https://www.editorialcerbero.com/"
+        },
+        {
+            "id": "L005",
+            "name": "Editorial Con Pluma y Píxel",
+            "logo": "pluma",
+            "link": "https://conplumaypixel.com/",
+            "benefit": "5% de descuento en todo el catálogo durante la FVLG\r\n• Gastos de envío gratis en pedidos de más de 20 €\r\n• Pack Flash Interactivo (los 4 libros + 2 marcapáginas + hojas de personaje + envío gratis).\r\n• Pack La saga del Merc (los 3 libros + dedicados + juego de dados mini\r\nde regalo + hoja de personaje + 2 marcapáginas + envío gratis)"
+        },
+        {
+            "id": "L006",
+            "name": "Editorial Crononauta",
+            "logo": "crononauta",
+            "link": "https://www.crononauta.es/",
+            "benefit": "5% de descuento en libro físico con el cód. HISPACON2021. Regalo de cuaderno y chapa con cada pedido con cód. HISPACON2021"
+        },
+        {
+            "id": "L007",
+            "name": "Ediciones Dorna",
+            "logo": "dorna",
+            "link": "https://edicionesdorna.com/"
+        },
+        {
+            "id": "L008",
+            "name": "Duermevela Ediciones",
+            "logo": "duermevela",
+            "link": "https://www.duermevelaediciones.es/",
+            "benefit": "5% descuento con el cód. HISPACON2021\r\nPostal y marcapáginas de cada libro adquirido\r\nPin de Atenea con La Ciudad Justa\r\nLámina de dirigible con La maldición del tranvía 015"
+        },
+        {
+            "id": "L009",
+            "name": "Dilatando Mentes Editorial",
+            "logo": "dmentes",
+            "link": "https://dilatandomenteseditorial.com/",
+            "benefit": "5% de descuento + marcapáginas\r\nEnvío por mensajería 48-72h gratis por la compra de dos o más libros"
+        },
+        {
+            "id": "L010",
+            "name": "La biblioteca de Carfax",
+            "logo": "carfax",
+            "link": "https://labibliotecadecarfax.com/",
+            "benefit": "5 % descuento con cód. HISPACON2021\r\nIlustración de cubierta del libro adquirido y chapa\r\nEnvío por correo ordinario gratis"
+        },
+        {
+            "id": "L011",
+            "name": "La máquina que hace PING!",
+            "logo": "ping",
+            "link": "https://lamaquinaquehaceping.com/",
+            "benefit": "5% de descuento durante la FVLG\r\nCada libro comprado llevará escrita una frase de la autora o autor creada expresamente para la ocasión\r\n5% de descuento para nuestra web durante 2022 con compras de 3 libros o más durante la FVLG\r\nMás allá de los mapas: libro digital especial gratis disponible en nuestra web. Con relatos completos de Tim Pratt, Laura Ponce, Robert Shearman, Cristian Cristian Romero y Cat Rambo"
+        },
+        {
+            "id": "L012",
+            "name": "Insomnia Ediciones",
+            "logo": "insomnia",
+            "link": "https://www.insomniaediciones.com/",
+            "benefit": "5% de descuento + participación en sorteo de merchandising"
+        },
+        {
+            "id": "L013",
+            "name": "Editorial Niña Loba",
+            "logo": "loba",
+            "link": "https://www.ninalobaeditorial.es/",
+            "benefit": "5% de descuento en todo el catálogo (papel y digital) con el cód. HISPACON2021"
+        },
+        {
+            "id": "L014",
+            "name": "Editorial Pez de plata",
+            "logo": "pezplata",
+            "link": "https://editorialpezdeplata.com/",
+            "benefit": "5% de descuentocon cód. HISPACON. (Válido hasta 30/11/2021)\r\nUn libro de género de regalo con cada compra (Pez de Plata elegirá según los títulos comprados). \r\nRegalo de una selección de Postales y Marcapáginas. \r\nTodos los compradores entrarán en un sorteo de una ilustración original y personalizada en papel verjurado 285 gr. El ganador/a protagonizará una portada simulada de Pez de Plata.\r\nEnvío gratuito."
+        },
+        {
+            "id": "L015",
+            "name": "Editorial Premium",
+            "logo": "premium",
+            "link": "https://editorialpremium.es/",
+            "benefit": "5% de descuento en:\r\n- La novela ganadora del premio Domingo Santos de Novela\r\n- Las edades de Itnis\r\n- Nos olvidamos de hablarnos"
+        },
+        {
+            "id": "L016",
+            "name": "Roomie Ediciones",
+            "logo": "roomie",
+            "link": "https://roomieediciones.com/",
+            "benefit": "5% de descuento con el cód. HPC21"
+        },
+        {
+            "id": "L017",
+            "name": "Literup Ediciones",
+            "logo": "literup",
+            "link": "https://www.literup.com/",
+            "benefit": "5% de descuento en todo el catálogo, físico y digital"
+        },
+        {
+            "id": "L018",
+            "name": "Mai Más",
+            "logo": "maimes",
+            "link": "https://www.maimes.cat/"
+        },
+        {
+            "id": "L019",
+            "name": "Obscura Editorial",
+            "logo": "obscura",
+            "link": "https://www.obscura.es/",
+            "benefit": "5% de descuento con el cód. Hispacón21Obscura\r\nRegalo de marcapáginas y material promocional de los libros adquiridos"
+        },
+        {
+            "id": "L020",
+            "name": "Raig Verd/Rayo Verde",
+            "logo": "raigvert",
+            "link": "http://www.rayoverde.es/"
+        },
+        {
+            "id": "L021",
+            "name": "Secc",
+            "benefit": "5% de descuento con el cód. HISPACON2021"
+        }
+    ]
