@@ -1,22 +1,47 @@
 .feria-card {
+
+
+
 	&__thumb {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		background-color: #fff;
-		padding: 2rem;
+		padding: 1rem;
 		border-top-left-radius: 20px;
 		border-top-right-radius: 20px;
 	}
-}
 
-.meeting-item .down-content p {
-	margin-left: 0;
-}
+	&__img {
+		max-width: 200px;
+	}
 
-.feria-card__text {
-	color: #1f272b;
-	font-size: 14px;
-}
+	&__down-content {
+		background-color: #fff;
+		padding: 30px;
+		border-bottom-right-radius: 20px;
+		border-bottom-left-radius: 20px;
+	}
 
-.text-content {
-	height: 200px;
-	overflow-y: scroll;
+	&__title {
+		font-size: 20px;
+		color: #a12c2f;
+		font-weight: 600;
+		display: inline-block;
+		margin-bottom: 15px;
+	}
+
+	&__text {
+		color: #1f272b;
+		font-size: 14px;
+	}
+
+	.text-content {
+		height: 100px;
+		overflow-y: scroll;
+
+		@media all and (max-width: 480px) {
+			height: auto;
+		}
+	}
 }
