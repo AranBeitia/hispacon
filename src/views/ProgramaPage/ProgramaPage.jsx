@@ -117,6 +117,7 @@ export default function ProgramaPage() {
 						<div className="col-lg-12">
 							<div className="row">
 								<div className="col-lg-12">
+									<a href="https://www.canva.com/design/DAEvVlQX7iU/pSWD97QBrqg3VzAQrdQdRQ/view?utm_content=DAEvVlQX7iU" target="_blank" rel="noreferrer">Ver programa en PDF</a>
 									<div className="filters">
 									{pinnedEvents.length > 0 ?
 										<ul>
