@@ -7,7 +7,7 @@ import data from '../../assets/data/programa.json'
 
 import { useState, useEffect } from 'react'
 
-import './ProgramaPage.style.css'
+import './ProgramaPage.style.scss'
 
 import ignotus from '../../assets/images/events/ignotus.jpg'
 import visiones from '../../assets/images/events/visiones.jpg'

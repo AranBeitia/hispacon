@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './Card.style.css'
+import './Card.style.scss'
 import youtubeIcon from '../../assets/images/icons/youtube-icon.svg'
 import bookmarkOutline from '../../assets/images/icons/bookmark-outline.svg'
 import bookmarkFull from '../../assets/images/icons/bookmark-full.svg'

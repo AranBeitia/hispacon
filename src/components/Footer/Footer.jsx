@@ -1,5 +1,5 @@
 import {AACC,	AKIRA,	GIGAMESH,	INSOLITA,	MUNDOS,	MUSEOS,	QCENTER,	ROSSA,	SHOGUN,	UMA, DUERMEVELA} from '../../assets/images/partners'
-import './Footer.style.css'
+import './Footer.style.scss'
 
 export default function Footer() {
   return (
