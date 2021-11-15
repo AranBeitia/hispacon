@@ -13,13 +13,10 @@ export default function PonentesPage() {
 	return (
 		<div>
 			<HeaderNav />
-			<Hero
-				id={2}
-				title={'Ponentes'}
-				description={'Ponentes'}
-			/>
-			{data.map(ponente =>
+			<Hero id={2} title={'Ponentes'} description={'Ponentes'} />
+			{data.map((ponente, index) => (
 				<PonentesCard
+					key={index}
 					id={ponente.id}
 					name={ponente.name}
 					lastName={ponente.lastName}
@@ -27,7 +24,7 @@ export default function PonentesPage() {
 					image={IMAGES[ponente.id]}
 					bio={BIOS[ponente.id]}
 				/>
-				)}
+			))}
 
 			<Footer />
 		</div>

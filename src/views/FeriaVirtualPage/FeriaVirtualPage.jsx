@@ -27,51 +27,50 @@ import roomie from '../../assets/images/feria/roomie.png'
 import FeriaCard from '../../components/FeriaCard/FeriaCard'
 
 export default function FeriaVirtualPage() {
-
 	let getImagePath = (image) => {
 		switch (image) {
-			case "aloha":
+			case 'aloha':
 				return aloha
-			case "arima":
+			case 'arima':
 				return arima
-			case "aristas":
+			case 'aristas':
 				return aristas
-			case "carfax":
+			case 'carfax':
 				return carfax
-			case "cerbero":
+			case 'cerbero':
 				return cerbero
-			case "crononauta":
+			case 'crononauta':
 				return crononauta
-			case "dmentes":
+			case 'dmentes':
 				return dmentes
-			case "dorna":
+			case 'dorna':
 				return dorna
-			case "duermevela":
+			case 'duermevela':
 				return duermevela
-			case "insomnia":
+			case 'insomnia':
 				return insomnia
-			case "literup":
+			case 'literup':
 				return literup
-			case "loba":
+			case 'loba':
 				return loba
-			case "maimes":
+			case 'maimes':
 				return maimes
-			case "obscura":
+			case 'obscura':
 				return obscura
-			case "pezplata":
+			case 'pezplata':
 				return pezplata
-			case "ping":
+			case 'ping':
 				return ping
-			case "pluma":
+			case 'pluma':
 				return pluma
-			case "premium":
+			case 'premium':
 				return premium
-			case "raigvert":
+			case 'raigvert':
 				return raigvert
-			case "roomie":
+			case 'roomie':
 				return roomie
 			default:
-				break;
+				break
 		}
 	}
 
@@ -86,14 +85,16 @@ export default function FeriaVirtualPage() {
 			<section className="wrapper">
 				<div className="container">
 					<div className="grid-layout">
-						{data.map(cardInfo => 
+						{data.map((cardInfo, index) => (
 							<FeriaCard
+								key={index}
 								id={cardInfo.id}
 								name={cardInfo.name}
 								logo={getImagePath(cardInfo.logo)}
 								link={cardInfo.link}
 								benefit={cardInfo.benefit}
-							/>)}
+							/>
+						))}
 					</div>
 				</div>
 			</section>
