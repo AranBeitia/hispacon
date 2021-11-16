@@ -26,7 +26,7 @@ export default function FeriaCard({
 						<img
 							className="feria-card__img"
 							src={logo}
-							alt={`Logo de ${name}`}
+							alt={`Imagen de ${name}`}
 						/>
 					</div>
 					<div className="feria-card__down-content">
