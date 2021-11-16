@@ -31,8 +31,8 @@ export default function Footer() {
 					<img src={DUERMEVELA} alt="Partner" />
 				</div>
 				<p>
-					Copyright © {new Date().getFullYear()} Pórtico · Asociación Española
-					de Fantasía, Ciencia Ficción y Terror · Todos los derechos reservados
+					© {new Date().getFullYear()} Pórtico · Asociación Española de
+					Fantasía, Ciencia Ficción y Terror
 				</p>
 			</footer>
 		</section>

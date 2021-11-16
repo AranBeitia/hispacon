@@ -21,6 +21,7 @@ export default function PonentesCard({
 					<img
 						className="feria-card__img"
 						src={logo}
+						loading="lazy"
 						alt={`Imagen de ${name}`}
 					/>
 				</div>

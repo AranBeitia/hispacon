@@ -143,119 +143,112 @@ export default function ProgramaPage() {
 			<Hero id={1} title={'participa en nuestras actividades'} description={'programa'} />
 			<section className="wrapper">
 				<div className="container">
-					<div className="row">
-						<div className="col-lg-12">
-							<div className="row">
-								<div className="col-lg-12">
-									<a
-										href="https://www.canva.com/design/DAEvVlQX7iU/pSWD97QBrqg3VzAQrdQdRQ/view?utm_content=DAEvVlQX7iU"
-										target="_blank"
-										rel="noreferrer"
-									>
-										Ver programa en PDF
-									</a>
-									<div className="filters">
-										{pinnedEvents.length > 0 ? (
-											<ul>
-												<li
-													onClick={() => {
-														getEventsDay('all')
-													}}
-												>
-													Todos
-												</li>
-												<li onClick={getPinnedEvents}>Mostrar favoritos</li>
-											</ul>
-										) : null}
-										<ul>
-											<li
-												onClick={() => {
-													getEventsDay('all')
-												}}
-											>
-												Todos
-											</li>
-											<li
-												onClick={() => {
-													getEventsDay(19)
-												}}
-											>
-												Viernes 19
-											</li>
-											<li
-												onClick={() => {
-													getEventsDay(20)
-												}}
-											>
-												Sábado 20
-											</li>
-											<li
-												onClick={() => {
-													getEventsDay(21)
-												}}
-											>
-												Domingo 21
-											</li>
-										</ul>
-										<ul>
-											<li
-												onClick={() => {
-													getEventsRoom('all')
-												}}
-											>
-												Todos
-											</li>
-											<li
-												onClick={() => {
-													getEventsRoom('Ignotus')
-												}}
-											>
-												Ignotus
-											</li>
-											<li
-												onClick={() => {
-													getEventsRoom('Visiones')
-												}}
-											>
-												Visiones
-											</li>
-											<li
-												onClick={() => {
-													getEventsRoom('Opportunity')
-												}}
-											>
-												Opportunity
-											</li>
-											{/* <li onClick={() => {getEventsRoom("Jornadas")}}>Jornadas</li> */}
-											<li
-												onClick={() => {
-													getEventsRoom('Sedes')
-												}}
-											>
-												Sedes
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="grid-layout">
-							{events.map((cardInfo, index) => (
-								<Card
-									key={index}
-									id={cardInfo.id}
-									title={cardInfo.title}
-									description={cardInfo.description}
-									day={cardInfo.day}
-									hour={cardInfo.hour}
-									image={getImagePath(cardInfo.image)}
-									videoLink={cardInfo.videoLink}
-									pinEvent={isPinned(cardInfo.id)}
-									handlePinnedEvent={handlePinnedEvent}
-									isPinned={isPinned}
-								/>
-							))}
-						</div>
+					<a
+						href="https://www.canva.com/design/DAEvVlQX7iU/pSWD97QBrqg3VzAQrdQdRQ/view?utm_content=DAEvVlQX7iU"
+						target="_blank"
+						rel="noreferrer"
+					>
+						Ver programa en PDF
+					</a>
+					<div className="filters">
+						{pinnedEvents.length > 0 ? (
+							<ul>
+								<li
+									onClick={() => {
+										getEventsDay('all')
+									}}
+								>
+									Todos
+								</li>
+								<li onClick={getPinnedEvents}>Mostrar favoritos</li>
+							</ul>
+						) : null}
+						<ul>
+							<li
+								onClick={() => {
+									getEventsDay('all')
+								}}
+							>
+								Todos
+							</li>
+							<li
+								onClick={() => {
+									getEventsDay(19)
+								}}
+							>
+								Viernes 19
+							</li>
+							<li
+								onClick={() => {
+									getEventsDay(20)
+								}}
+							>
+								Sábado 20
+							</li>
+							<li
+								onClick={() => {
+									getEventsDay(21)
+								}}
+							>
+								Domingo 21
+							</li>
+						</ul>
+						<ul>
+							<li
+								onClick={() => {
+									getEventsRoom('all')
+								}}
+							>
+								Todos
+							</li>
+							<li
+								onClick={() => {
+									getEventsRoom('Ignotus')
+								}}
+							>
+								Ignotus
+							</li>
+							<li
+								onClick={() => {
+									getEventsRoom('Visiones')
+								}}
+							>
+								Visiones
+							</li>
+							<li
+								onClick={() => {
+									getEventsRoom('Opportunity')
+								}}
+							>
+								Opportunity
+							</li>
+							{/* <li onClick={() => {getEventsRoom("Jornadas")}}>Jornadas</li> */}
+							<li
+								onClick={() => {
+									getEventsRoom('Sedes')
+								}}
+							>
+								Sedes
+							</li>
+						</ul>
+					</div>
+
+					<div className="grid-layout">
+						{events.map((cardInfo, index) => (
+							<Card
+								key={index}
+								id={cardInfo.id}
+								title={cardInfo.title}
+								description={cardInfo.description}
+								day={cardInfo.day}
+								hour={cardInfo.hour}
+								image={getImagePath(cardInfo.image)}
+								videoLink={cardInfo.videoLink}
+								pinEvent={isPinned(cardInfo.id)}
+								handlePinnedEvent={handlePinnedEvent}
+								isPinned={isPinned}
+							/>
+						))}
 					</div>
 				</div>
 			</section>
