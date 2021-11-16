@@ -7,9 +7,9 @@
 	text-align: center;
 }
 
-@for $i from 1 through 2 {
+@for $i from 1 through 3 {
 	.bg-img-#{$i} {
-		background-image: url('../../assets/images/bg-image-#{$i}.png');
+    background-image: linear-gradient(to right bottom,rgba(0, 3, 48, 0.8),rgba(7, 3, 39, 0.8)),url('../../assets/images/bg-image-#{$i}.png');
 	}
 }
 

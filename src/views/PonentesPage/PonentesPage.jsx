@@ -37,7 +37,7 @@ export default function PonentesPage() {
 	return (
 		<div>
 			<HeaderNav />
-			<Hero id={2} title={'Ponentes'} description={'Ponentes'} />
+			<Hero id={3} title={'Ponentes'} description={'Ponentes'} />
 			<section className="wrapper">
 				<div className="container">
 					<input
