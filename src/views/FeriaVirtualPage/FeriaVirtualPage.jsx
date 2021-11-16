@@ -1,5 +1,6 @@
 import HeaderNav from '../../components/HeaderNav/HeaderNav'
 import Hero from '../../components/Hero/Hero'
+import FeriaCard from '../../components/FeriaCard/FeriaCard'
 import Footer from '../../components/Footer/Footer'
 
 import data from '../../assets/data/feria.json'
@@ -24,7 +25,8 @@ import pluma from '../../assets/images/feria/pluma.png'
 import premium from '../../assets/images/feria/premium.png'
 import raigvert from '../../assets/images/feria/raigvert.png'
 import roomie from '../../assets/images/feria/roomie.png'
-import FeriaCard from '../../components/FeriaCard/FeriaCard'
+import secc from '../../assets/images/feria/secc.png'
+
 
 export default function FeriaVirtualPage() {
 	let getImagePath = (image) => {
@@ -69,6 +71,8 @@ export default function FeriaVirtualPage() {
 				return raigvert
 			case 'roomie':
 				return roomie
+			case 'secc':
+				return secc
 			default:
 				break
 		}

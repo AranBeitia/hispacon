@@ -17,13 +17,15 @@
             "id": "L003",
             "name": "Aristas Martínez",
             "logo": "aristas",
-            "link": "https://www.aristasmartinez.com/"
+            "link": "https://www.aristasmartinez.com/",
+            "benefit": "Con cada compra se asignará un número para el sorteo. Los pedidos se enviarán por servicio de mensajería rápida (sin gastos adicionales) 24-48 h"
         },
         {
             "id": "L004",
             "name": "Editorial Cerbero",
             "logo": "cerbero",
-            "link": "https://www.editorialcerbero.com/"
+            "link": "https://www.editorialcerbero.com/",
+            "benefit": "5% de descuento en todas las compras durante la Hispacon y regalo sorpresa en cada paquete"
         },
         {
             "id": "L005",
@@ -117,7 +119,7 @@
         },
         {
             "id": "L018",
-            "name": "Mai Más",
+            "name": "Mai Més",
             "logo": "maimes",
             "link": "https://www.maimes.cat/"
         },
@@ -136,7 +138,9 @@
         },
         {
             "id": "L021",
-            "name": "Secc",
+            "name": "Edicions Secc",
+            "logo": "secc",
+            "link": "https://edicionssecc.blogspot.com/",
             "benefit": "5% de descuento con el cód. HISPACON2021"
         }
     ]

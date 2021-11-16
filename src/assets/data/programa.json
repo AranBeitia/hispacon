@@ -1,8 +1,8 @@
 [
         {
             "id": "1",
-            "title": "Inauguración",
-            "description": "Evento oficial",
+            "title": "Inauguración Hispacón - Conversación con Roberto López-Herrero",
+            "description": "Con Roberto López Herrero y Luis Endera (entrevista)",
             "day": "19",
             "hour": "10:00 - 11:00",
             "image": "ignotus",
@@ -11,16 +11,6 @@
         },
         {
             "id": "2",
-            "title": "Conversación con Roberto López-Herrero",
-            "description": "Con Roberto López Herrero y Luis Endera",
-            "day": "19",
-            "hour": "10:20 - 11:00",
-            "image": "ignotus",
-            "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
-            "room": "Ignotus"
-        },
-        {
-            "id": "3",
             "title": "\r\n100 años del nacimiento de Stanislaw Lem: Un legado de ideas",
             "description": "Con Nacho Agulló y Salvador Bayarri",
             "day": "19",
@@ -30,7 +20,7 @@
             "room": "Ignotus"
         },
         {
-            "id": "4",
+            "id": "3",
             "title": "Mortífagos en Invernalia: La traducción de neologismos en la fantasía y la cifi",
             "description": "Con Juan Pascual Martínez y María José Sánchez",
             "day": "19",
@@ -40,8 +30,8 @@
             "room": "Opportunity"
         },
         {
-            "id": "5",
-            "title": "Sabres de sal, un univers fosc de tinta i paper (Ediciones SECC)",
+            "id": "4",
+            "title": "Sabres de sal, un univers fosc de tinta i paper (Edicions SECC)",
             "description": "Con Alister Mario y Alicia Gili (modera)",
             "day": "19",
             "hour": "11:00 - 11:30",
@@ -50,7 +40,7 @@
             "room": "Visiones"
         },
         {
-            "id": "6",
+            "id": "5",
             "title": "A la caza de las novelettes (Insomnia)",
             "description": "Con Luis Alberto Henríquez Hernández, Alfred Almasy, Laura Arenas, Diego Salcedo, Iván Mayayo, A.R. Medina y May López (modera)",
             "day": "19",
@@ -60,7 +50,7 @@
             "room": "Visiones"
         },
         {
-            "id": "7",
+            "id": "6",
             "title": "Presentación: Minotauro",
             "description": "Con Fabián Plaza, Vicky Hidalgo y Natalia Sánchez",
             "day": "19",
@@ -70,7 +60,7 @@
             "room": "Visiones"
         },
         {
-            "id": "8",
+            "id": "7",
             "title": "Presentación: Crononauta",
             "description": "Con Carla Bataller Estruch",
             "day": "19",
@@ -80,7 +70,7 @@
             "room": "Visiones"
         },
         {
-            "id": "9",
+            "id": "8",
             "title": "Traducir un universo: los secretos detrás del Cosmere en castellano",
             "description": "Con Manu Viciano, Marina Vidal, Tamara Tonetti e Isa J. González (modera)",
             "day": "19",
@@ -90,7 +80,7 @@
             "room": "Ignotus"
         },
         {
-            "id": "10",
+            "id": "9",
             "title": "Presentando a Arima editorial y sus novedades",
             "description": "Con Lorena Gil Rey y Ferki López (entrevista)",
             "day": "19",
@@ -100,7 +90,7 @@
             "room": "Visiones"
         },
         {
-            "id": "11",
+            "id": "10",
             "title": "It's the end of the world, as we know it. La distopía en rayo verde",
             "description": "Con Laura Huerga",
             "day": "19",
@@ -110,7 +100,7 @@
             "room": "Visiones"
         },
         {
-            "id": "12",
+            "id": "11",
             "title": "No te limites al grifo: Aves mitológicas menos conocidas para dar variedad a tus escritos",
             "description": "Con Paula Yagüez i López-Jurado",
             "day": "19",
@@ -120,7 +110,7 @@
             "room": "Ignotus"
         },
         {
-            "id": "13",
+            "id": "12",
             "title": "Novedades de Obscura editorial",
             "description": "Con Roser Vales y Job Peró",
             "day": "19",
@@ -130,9 +120,9 @@
             "room": "Visiones"
         },
         {
-            "id": "14",
+            "id": "13",
             "title": "Cordilleras de tinta: Rol y mapas",
-            "description": "Con Eneko Menica, Adrián Díez Ramos, Toñi Gil, El Bardo Chillón y Alberto Seijo (modera)",
+            "description": "Con Eneko Menica, Adela Quiles, Toñi Gil, El Bardo Chillón y Alberto Seijo (modera)",
             "day": "19",
             "hour": "16:00 - 17:00",
             "image": "ignotus",
@@ -140,7 +130,7 @@
             "room": "Ignotus"
         },
         {
-            "id": "15",
+            "id": "14",
             "title": "Ecofeminismo: sin igualdad no salvaremos la Tierra",
             "description": "Con Josué Ramos, Luis Gómez García, Luisa Oliva, Cristina Martín de Francisco y Óscar Navas",
             "day": "19",
@@ -150,7 +140,7 @@
             "room": "Visiones"
         },
         {
-            "id": "16",
+            "id": "15",
             "title": "Mesa redonda: El infinito en un verso. Poesía de ciencia-ficción y fantasía",
             "description": "Con Cristina Jurado, Camila Almendra, Dana Lima, Francisco Jota-Pérez y Ana Tapia",
             "day": "19",
@@ -160,9 +150,9 @@
             "room": "Visiones"
         },
         {
-            "id": "17",
-            "title": "Presentación de la antología del premio Domingo Santos de Relato 2021",
-            "description": "Con Jesús Moracho, la persona ganadora del premio y Blanca Rodríguez (modera)",
+            "id": "16",
+            "title": "Presentación de la antología del premio Domingo Santos de Relato 2020",
+            "description": "Con Darío Díaz Anzalone, Juan Francisco Troya, Carlo Gallucci, Elena Durán y Manuel Ortiz",
             "day": "19",
             "hour": "18:00 - 19:00",
             "image": "ignotus",
@@ -170,7 +160,7 @@
             "room": "Ignotus"
         },
         {
-            "id": "18",
+            "id": "17",
             "title": "Héroes, villanos y \"lo de en medio\" - Mesa  redonda sobre personajes",
             "description": "Con Sheila Carnero y Lucia G. Sobrado",
             "day": "19",
@@ -180,7 +170,7 @@
             "room": "Visiones"
         },
         {
-            "id": "19",
+            "id": "18",
             "title": "El vampiro en la literatura: mitos, evoluciones y otras idas de olla",
             "description": "Con Damián G. Ponce y Rosa Soria (presenta)",
             "day": "19",
@@ -190,7 +180,7 @@
             "room": "Opportunity"
         },
         {
-            "id": "20",
+            "id": "19",
             "title": "Conversación con Jo Walton",
             "description": "Con Jo Walton y Blanca Rodríguez (entrevista)",
             "day": "19",
@@ -200,16 +190,17 @@
             "room": "Ignotus"
         },
         {
-            "id": "21",
+            "id": "20",
             "title": "Construyendo una novela de ciencia--ficción",
             "description": "Con Isa J. González, Laura S. Maquilón y Caryanna Reuven",
             "day": "19",
             "hour": "19:00 - 20:00",
             "image": "gigamesh",
+            "videoLink": "https://www.youtube.com/c/Librer%C3%ADaGigameshBarcelona",
             "room": "Sedes"
         },
         {
-            "id": "22",
+            "id": "21",
             "title": "Planetas Visibles: La internacionalización silenciosa de la ciencia-ficción china",
             "description": "Con Nick Wu, Regina Kanyu Wang, Javier Fernández Díaz y Miguel San Gregorio (modera)",
             "day": "20",
@@ -219,7 +210,7 @@
             "room": "Ignotus"
         },
         {
-            "id": "23",
+            "id": "22",
             "title": "Presentación de Hermana X. Nunsploitation & Pulp en la edición actual",
             "description": "Con Adriana Bañares",
             "day": "20",
@@ -229,8 +220,9 @@
             "room": "Visiones"
         },
         {
-            "id": "24",
+            "id": "23",
             "title": "Presentación: Aristas Martínez",
+            "description": "Con Sara Herculano y Cisco Bellabestia",
             "day": "20",
             "hour": "10:30 - 11:00",
             "image": "visiones",
@@ -238,7 +230,7 @@
             "room": "Visiones"
         },
         {
-            "id": "25",
+            "id": "24",
             "title": "Misma historia, otros ojos: La religión y el mito en los videojuegos",
             "description": "Con Akusokozan, Azka, Darkor_LF, Alystrin y Meren Plath",
             "day": "20",
@@ -248,7 +240,7 @@
             "room": "Ignotus"
         },
         {
-            "id": "26",
+            "id": "25",
             "title": "Soy lo que me persigue. El terror como ficción del trauma (Dilatando Mentes)",
             "description": "Con Ismael Martínez Biurrun, Carlos Pitillas Salvá, Rubén Sánchez Trigos (presenta)",
             "day": "20",
@@ -258,7 +250,7 @@
             "room": "Visiones"
         },
         {
-            "id": "27",
+            "id": "26",
             "title": "Presentación: La Biblioteca de Carfax",
             "description": "Con Shaila Correa y María Pérez de San Román",
             "day": "20",
@@ -268,7 +260,7 @@
             "room": "Visiones"
         },
         {
-            "id": "28",
+            "id": "27",
             "title": "Diseña tu universo: worldbuilding en siete líneas",
             "description": "Con Victoria Álvarez, Ana Roux, Kate Lynnon y Beatriz García (modera)",
             "day": "20",
@@ -278,25 +270,27 @@
             "room": "Opportunity"
         },
         {
-            "id": "29",
-            "title": "De \"El Día de la Bestia\" a \"El Laberinto del Fauno\": medio siglo y 9 Goyas haciendo magia [Reyes Abades]",
-            "description": "Con Reyes Abades e Isabel Clemente",
+            "id": "28",
+            "title": "De \"El Día de la Bestia\" a \"El Laberinto del Fauno\": medio siglo y 9 Goyas haciendo magia con Reyes Abades",
+            "description": "Con Reyes Abades e Isabel Clemente (modera)",
             "day": "20",
             "hour": "12:00 - 13:00",
             "image": "akira",
+            "videoLink": "https://www.eventbrite.es/e/entradas-hispacon-2021-medio-siglo-y-nueve-goyas-haciendo-magia-211160585997",
             "room": "Sedes"
         },
         {
-            "id": "30",
+            "id": "29",
             "title": "Territori del terror - Autores d'horror de proximitat",
             "description": "Con Sofía Rhei, Elena Bartomeu y Sònia Boj",
             "day": "20",
             "hour": "12:00 - 13:00",
             "image": "insolita",
+            "videoLink": "https://www.youtube.com/channel/UCfu7nvnUh-oUwbBemF6neZg",
             "room": "Sedes"
         },
         {
-            "id": "31",
+            "id": "30",
             "title": "Presentación: Cerbero",
             "description": "Con Virginia Buedo, Maielis González, Damián G. Ponce, Eva Duncan e Israel Alonso",
             "day": "20",
@@ -306,7 +300,7 @@
             "room": "Visiones"
         },
         {
-            "id": "32",
+            "id": "31",
             "title": "Presentación de hambrientos y cobardes, de Ángel Vallecillo (Pez de Plata)",
             "description": "Con Ángel Vallecillo y Jorge Salvador Galindo",
             "day": "20",
@@ -316,7 +310,7 @@
             "room": "Visiones"
         },
         {
-            "id": "33",
+            "id": "32",
             "title": "Esto es lo que hacía Ibai, ¿no?: Cómo divulgar literatura en Twitch",
             "description": "Con Carla (Café de tinta), Aritz P. Berra e Isa J. González (modera)",
             "day": "20",
@@ -326,7 +320,7 @@
             "room": "Ignotus"
         },
         {
-            "id": "34",
+            "id": "33",
             "title": "Editando librojuegos: cómo, qué y por qué",
             "description": "Con José Luis Pastor y Francisco Tapia-Fuentes",
             "day": "20",
@@ -336,9 +330,9 @@
             "room": "Visiones"
         },
         {
-            "id": "35",
+            "id": "34",
             "title": "Noir fantástico: una combinación fabulosa",
-            "description": "Con Pepe Carabel",
+            "description": "Con Juan J Aranda, Pau Ferrón, Sergio Mullor, Olga Sanchís Terol, Pepe Carabel (modera)",
             "day": "20",
             "hour": "15:00 - 16:00",
             "image": "ignotus",
@@ -346,7 +340,7 @@
             "room": "Ignotus"
         },
         {
-            "id": "36",
+            "id": "35",
             "title": "Windumanoth Podcast",
             "description": "Con Álex Sebastián e Ismael F. Cabeza",
             "day": "20",
@@ -356,7 +350,7 @@
             "room": "Visiones"
         },
         {
-            "id": "37",
+            "id": "36",
             "title": "Y Caperucita decidió tomar un taxi: Videojuegos, animación y narración interactiva",
             "description": "Con Javier Gayo Santacecilia, Estrella Rodríguez Martín, Samuel Viñolo Locubiche, Daniel Govantes Carrasco, Rosa Jiménez Morales, Jose Jesus García Rueda y Leticia Murga",
             "day": "20",
@@ -366,7 +360,7 @@
             "room": "Ignotus"
         },
         {
-            "id": "38",
+            "id": "37",
             "title": "Radioficción y arqueología literaria",
             "description": "Con Escritoras de Urras, Noviembre Nocturno, Droids & Druids y Lumak Podcast",
             "day": "20",
@@ -376,7 +370,7 @@
             "room": "Visiones"
         },
         {
-            "id": "39",
+            "id": "38",
             "title": "Conversación con Conchi Regueiro",
             "description": "Con Conchi Regueiro y Victoria Janeiro (entrevista)",
             "day": "20",
@@ -386,9 +380,9 @@
             "room": "Opportunity"
         },
         {
-            "id": "40",
+            "id": "39",
             "title": "Conversación con P. Djèlí Clark",
-            "description": "Con P. Djèlí Clark y Cristina Jurado (modera)",
+            "description": "Con P. Djèlí Clark y Cristina Jurado (entrevista)",
             "day": "20",
             "hour": "17:00 - 18:00",
             "image": "ignotus",
@@ -396,7 +390,7 @@
             "room": "Ignotus"
         },
         {
-            "id": "41",
+            "id": "40",
             "title": "Rol en el aula",
             "description": "Con Jennifer Fuentes, Ramón Balcells y Mariola Juncal (modera)",
             "day": "20",
@@ -406,7 +400,7 @@
             "room": "Visiones"
         },
         {
-            "id": "42",
+            "id": "41",
             "title": "Crónicas (científicas) marcianas",
             "description": "Con Uxia Vales, Estibaliz Espinosa y Borja Tosar (modera)",
             "day": "20",
@@ -416,25 +410,27 @@
             "room": "Opportunity"
         },
         {
-            "id": "43",
+            "id": "42",
             "title": "Cuéntala otra vez - El retelling como técnica narrativa",
             "description": "Con Iria G. Parente, Selene M. Pascual, Enerio Dima, H.M. Zubieta y Andrés Zelada (moderación)",
             "day": "20",
             "hour": "17:00 - 18:00",
             "image": "akira",
+            "videoLink": "https://www.eventbrite.es/e/entradas-hispacon-2021-cuentala-otra-vez-el-retelling-como-tecnica-narrativa-211166804597",
             "room": "Sedes"
         },
         {
-            "id": "44",
+            "id": "43",
             "title": "Are we the baddies? - Nadie es el villano de su propia historia",
             "description": "Con Aitor Díaz, Virginia Buedo y Yaiza Carrasco",
             "day": "20",
             "hour": "17:15 - 18:15",
             "image": "mundos",
+            "videoLink": "https://www.youtube.com/channel/UCrXNQujrCKupNBuN1nl38PQ",
             "room": "Sedes"
         },
         {
-            "id": "45",
+            "id": "44",
             "title": "Literatura latinoamericana: estrategias de resistencia desde los géneros no realistas",
             "description": "Con Ramiro Sanchiz, Libia Brenda, Laura Ponce y Maiélis González (modera)",
             "day": "20",
@@ -444,7 +440,7 @@
             "room": "Ignotus"
         },
         {
-            "id": "46",
+            "id": "45",
             "title": "Serial killers: Los asesinos en serie y la ficción (cine, literatura, cómic, videojuego)",
             "description": "Con Lou W. Morrison, Francis Novoa, Manuel Gutiérrez, José Ángel Conde y Olga López (modera)",
             "day": "20",
@@ -454,25 +450,27 @@
             "room": "Visiones"
         },
         {
-            "id": "47",
+            "id": "46",
             "title": "La vida secreta de las casas encantadas",
             "description": "Con Aitor Díaz, Andrea Penalva y Virginia Buedo",
             "day": "20",
             "hour": "18:15 - 19:15",
             "image": "mundos",
+            "videoLink": "https://www.youtube.com/channel/UCrXNQujrCKupNBuN1nl38PQ",
             "room": "Sedes"
         },
         {
-            "id": "48",
+            "id": "47",
             "title": "Gente que hace cosas - Creación de espacios culturales propios",
             "description": "Con L. G. Morgan y Chabier Nogueras Corral",
             "day": "20",
             "hour": "18:30 - 19:30",
             "image": "pantera",
+            "videoLink": "https://www.youtube.com/user/panterasrossas",
             "room": "Sedes"
         },
         {
-            "id": "49",
+            "id": "48",
             "title": "Conversación con Silvia Moreno-García",
             "description": "Con Silvia Moreno-García y Gabriela Campbell (entrevista)",
             "day": "20",
@@ -482,9 +480,9 @@
             "room": "Ignotus"
         },
         {
-            "id": "50",
+            "id": "49",
             "title": "Conversación con Derek Kunsken",
-            "description": "Con Derek Kunsken y Leticia Lara",
+            "description": "Con Derek Kunsken y Leticia Lara (entrevista)",
             "day": "20",
             "hour": "19:00 - 20:00",
             "image": "visiones",
@@ -492,25 +490,27 @@
             "room": "Visiones"
         },
         {
-            "id": "51",
+            "id": "50",
             "title": "Aliens 101: de cero a especie (en un pispás)",
             "description": "Con Andrea Penalva, Irene Robles y Manuel Ortiz",
             "day": "20",
             "hour": "19:15 - 20:15",
             "image": "mundos",
+            "videoLink": "https://www.youtube.com/channel/UCrXNQujrCKupNBuN1nl38PQ",
+            "room": "Sedes"
+        },
+        {
+            "id": "51",
+            "title": "El futuro del futuro: Imaginando la ciencia-ficción de la sociedad post-capitalista",
+            "description": "Con Miriam Jiménez Iriarte, María José Orellana y Sergio Mars",
+            "day": "20",
+            "hour": "19:30 - 20:30",
+            "image": "pantera",
+            "videoLink": "https://www.youtube.com/user/panterasrossas",
             "room": "Sedes"
         },
         {
             "id": "52",
-            "title": "El futuro del futuro: Imaginando la ciencia-ficción de la sociedad post-capitalista",
-            "description": "Con Miriam Jiménez Iriarte y Sergio Mars",
-            "day": "20",
-            "hour": "19:30 - 20:30",
-            "image": "pantera",
-            "room": "Sedes"
-        },
-        {
-            "id": "53",
             "title": "Gala Ignotus - Ceremonia de entrega de los Premios Ignotus 2021",
             "day": "20",
             "hour": "21:00 - 22:00",
@@ -519,7 +519,7 @@
             "room": "Ignotus"
         },
         {
-            "id": "54",
+            "id": "53",
             "title": "Tolkien mainstream",
             "description": "Con Mónica Sanz, Josu Gómez, Bárbara García y Héctor Vielva (modera)",
             "day": "21",
@@ -529,7 +529,7 @@
             "room": "Ignotus"
         },
         {
-            "id": "55",
+            "id": "54",
             "title": "Presentación: ‘Las aventuras de Lutven Karena’, de Luis Zurriaga (Niña Loba editorial)",
             "description": "Con Luis Zurriaga (autor), Paula Aparicio Cejudo, Silvia M. Díaz y Darío Méndez (editor, modera)",
             "day": "21",
@@ -539,7 +539,7 @@
             "room": "Visiones"
         },
         {
-            "id": "56",
+            "id": "55",
             "title": "Presentación de ‘Las edades de Itnis’ (Premium)",
             "description": "Con Salvador Bayarri y Jesús Moracho",
             "day": "21",
@@ -549,7 +549,7 @@
             "room": "Visiones"
         },
         {
-            "id": "57",
+            "id": "56",
             "title": "Porque yo lo valgo: Autopublicar con calidad profesional",
             "description": "Con Laura Tárraga, Libertad Delgado, Adela Brach, Celia Arias e Isabel Clemente (modera)",
             "day": "21",
@@ -559,7 +559,7 @@
             "room": "Ignotus"
         },
         {
-            "id": "58",
+            "id": "57",
             "title": "Presentación: Literup",
             "description": "Con Rubén Rodríguez Rísquez, Cristina García Trufero, Maeva Nieto Piñero, Raquel S. Valle, Cristina Ogando, Alicia Pérez Gil, Aura Blanco, Sara García Rizzotto, Cris Mestre, Patricia Macías García y Meritxell Terrón",
             "day": "21",
@@ -569,7 +569,7 @@
             "room": "Visiones"
         },
         {
-            "id": "59",
+            "id": "58",
             "title": "Presentación: Con Pluma y Píxel",
             "description": "Con Kate Lynnon, Edith del Campo, Madame Eloise y Francisco Tapia-Fuentes (presenta)",
             "day": "21",
@@ -579,8 +579,8 @@
             "room": "Visiones"
         },
         {
-            "id": "60",
-            "title": "Presentación de la Fabricantes de Sueños 2016-2017",
+            "id": "59",
+            "title": "Presentación de Fabricantes de Sueños 2016-2017",
             "description": "Con Covadonga Martínez-Pola, Josué Ramos, María Antonia Martí Escayol, David Luna Lorenzo, Conchi Regueiro y Míriam Álvarez Elvira",
             "day": "21",
             "hour": "12:00 - 13:00",
@@ -589,17 +589,7 @@
             "room": "Ignotus"
         },
         {
-            "id": "61",
-            "title": "Presentación del premio Domingo Santos de Novela 2021",
-            "description": "Con Darío Díaz Anzalone, Juan Francisco Troya, Carlo Gallucci, Elena Duran y Manuel Ortiz",
-            "day": "21",
-            "hour": "12:00 - 13:00",
-            "image": "opportunity",
-            "videoLink": "https://www.youtube.com/channel/UCEv3bbwi46oHRJ_gXdb9V5Q",
-            "room": "Opportunity"
-        },
-        {
-            "id": "62",
+            "id": "60",
             "title": "Presentación: Duermevela",
             "description": "Con Almudena Martínez y Rebeca Cardeñoso Viña",
             "day": "21",
@@ -609,7 +599,7 @@
             "room": "Visiones"
         },
         {
-            "id": "63",
+            "id": "61",
             "title": "Presentación: Dorna",
             "description": "Con Víctor Guez y Cristina Carou (presenta)",
             "day": "21",
@@ -619,7 +609,7 @@
             "room": "Visiones"
         },
         {
-            "id": "64",
+            "id": "62",
             "title": "Joven promesa a los 40: La experiencia de ser autores noveles cuando ya se peinan canas",
             "description": "Con Rafa C. Bachiller, Penélope Fernández, Isabel Pedrero, Marta Inés Rodríguez, Raquel S. Valle y Ana Saiz (modera)",
             "day": "21",
@@ -629,7 +619,7 @@
             "room": "Ignotus"
         },
         {
-            "id": "65",
+            "id": "63",
             "title": "Presentación: Roomie (Nana de Sombras)",
             "description": "Con Marina Tena Tena, Raquel Arbeteta (presenta)",
             "day": "21",
@@ -639,7 +629,7 @@
             "room": "Visiones"
         },
         {
-            "id": "66",
+            "id": "64",
             "title": "Presentación: La máquina que hace ping!",
             "day": "21",
             "hour": "13:30 - 14:00",
@@ -648,7 +638,7 @@
             "room": "Visiones"
         },
         {
-            "id": "67",
+            "id": "65",
             "title": "La ficción como reflejo de la historia y la economía",
             "description": "Con Tomas Apán",
             "day": "21",
@@ -658,7 +648,7 @@
             "room": "Ignotus"
         },
         {
-            "id": "68",
+            "id": "66",
             "title": "De cómo gestionar un proyecto de crowdfunding y no perder a nadie por el camino",
             "description": "Con Cristina del Toro Tomás y Josué Ramos",
             "day": "21",
@@ -668,7 +658,7 @@
             "room": "Visiones"
         },
         {
-            "id": "69",
+            "id": "67",
             "title": "Rol de hemen, enllà y acolá: Rol en las lenguas minorizadas de la Península",
             "description": "Con Xurxo Diz Pico, Xabier Landabidea Urresti, Paula Cánoves y Viriato Valdés Valiña (modera)",
             "day": "21",
@@ -678,7 +668,7 @@
             "room": "Ignotus"
         },
         {
-            "id": "70",
+            "id": "68",
             "title": "Humor y literatura fantástica: sí, siempre",
             "description": "Con Almijara Barbero Carvajal, Sergio S. Morán, Ander Mombiela y Marina Vidal",
             "day": "21",
@@ -688,7 +678,17 @@
             "room": "Visiones"
         },
         {
-            "id": "71",
+            "id": "69",
+            "title": "Presentación del premio Domingo Santos de Novela 2021",
+            "description": "Con Estefanía Abril, autor/a de la obra ganadora, Blanca Rodríguez (presenta)",
+            "day": "21",
+            "hour": "17:00 - 18:00",
+            "image": "opportunity",
+            "videoLink": "https://www.youtube.com/channel/UCEv3bbwi46oHRJ_gXdb9V5Q",
+            "room": "Opportunity"
+        },
+        {
+            "id": "70",
             "title": "La tercera nave: Bibliotecas para encontrarlos a todos",
             "description": "Con Loreto ML, Claudia Fontana, Laura S. Maquilón, José Manuel Cárdenas y José R. Montejano",
             "day": "21",
@@ -698,7 +698,7 @@
             "room": "Ignotus"
         },
         {
-            "id": "72",
+            "id": "71",
             "title": "La arquitectura de la sangre: El vampiro en presentaciones multiplataforma",
             "description": "Con Yakamí Machado",
             "day": "21",
@@ -708,8 +708,8 @@
             "room": "Visiones"
         },
         {
-            "id": "73",
-            "title": "Presentación de la Visiones 2021",
+            "id": "72",
+            "title": "Presentación de la antología Visiones 2021",
             "description": "Con Claudio Amodeo, Pablo Campos, Javier Font, Marco Granado, Eva G. Guerrero, Elena Lozano, J. A. Menéndez, Néstor Román, Sara Sacristán Horcajada, Diego Salcedo, Ibán M. Sánchez Macanás, Alberto Sepúlveda Ortega, Laura S. Maquilón, Héctor Vielva, Mario David Cárdenas Cancio y Diana P. Morales (modera)",
             "day": "21",
             "hour": "18:00 - 19:00",
@@ -718,7 +718,7 @@
             "room": "Ignotus"
         },
         {
-            "id": "74",
+            "id": "73",
             "title": "Convenciones post-pandemia ",
             "description": "Con Isa J. González (España), representando a la HispaCón, Iliana Vargas (México), representando a Mexicona, Thiago Lee (Brasil), representando a Relampeio, Poldark Mego (Peru), representando a Ouroboros, Leonardo Espinoza (Chile), representando a la convención internacional FutureCon y Cristina Jurado (España), moderadora",
             "day": "21",
@@ -728,9 +728,9 @@
             "room": "Visiones"
         },
         {
-            "id": "75",
+            "id": "74",
             "title": "Conversación con Seanan McGuire",
-            "description": "Con Seanan McGuire y Laura Huelin",
+            "description": "Con Seanan McGuire y Laura Huelin (entrevista)",
             "day": "21",
             "hour": "19:00 - 20:00",
             "image": "ignotus",
@@ -738,7 +738,7 @@
             "room": "Ignotus"
         },
         {
-            "id": "76",
+            "id": "75",
             "title": "La Academia contraataca: Reflexión y resistencia en torno a la narrativa de género latinoamericana",
             "description": "Con Rodrigo Bastidas Pérez, Nicole Fadellin, Yasmin S. Portales-Machado, Rafael Acevedo y Maielis González (modera)",
             "day": "21",
@@ -748,15 +748,13 @@
             "room": "Visiones"
         },
         {
-            "id": "77",
+            "id": "76",
             "title": "Clausura",
+            "description": "Cierre de la HispaCón 2021",
             "day": "21",
             "hour": "20:00 - 21:00",
             "image": "ignotus",
             "videoLink": "https://www.youtube.com/channel/UCq4vy03JJbvrGdq8IivsEvg",
             "room": "Ignotus"
-        },
-        {
-            "title": "presentación: ‘las aventuras de lutven karena’, de luis zurriaga\r\n(niña loba editorial)"
         }
     ]
