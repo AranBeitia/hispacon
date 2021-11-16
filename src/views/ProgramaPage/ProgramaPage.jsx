@@ -232,23 +232,24 @@ export default function ProgramaPage() {
 							</li>
 						</ul>
 					</div>
-				</div>
-				<div className="grid-layout">
-					{events.map((cardInfo, index) => (
-						<Card
-							key={index}
-							id={cardInfo.id}
-							title={cardInfo.title}
-							description={cardInfo.description}
-							day={cardInfo.day}
-							hour={cardInfo.hour}
-							image={getImagePath(cardInfo.image)}
-							videoLink={cardInfo.videoLink}
-							pinEvent={isPinned(cardInfo.id)}
-							handlePinnedEvent={handlePinnedEvent}
-							isPinned={isPinned}
-						/>
-					))}
+
+					<div className="grid-layout">
+						{events.map((cardInfo, index) => (
+							<Card
+								key={index}
+								id={cardInfo.id}
+								title={cardInfo.title}
+								description={cardInfo.description}
+								day={cardInfo.day}
+								hour={cardInfo.hour}
+								image={getImagePath(cardInfo.image)}
+								videoLink={cardInfo.videoLink}
+								pinEvent={isPinned(cardInfo.id)}
+								handlePinnedEvent={handlePinnedEvent}
+								isPinned={isPinned}
+							/>
+						))}
+					</div>
 				</div>
 			</section>
 			<Footer />
