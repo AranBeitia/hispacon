@@ -1,6 +1,7 @@
-import './FeriaCard.style.scss'
+import './PonentesCard.style.scss'
+import TheModal from '../../components/TheModal/TheModal'
 
-export default function FeriaCard({
+export default function PonentesCard({
 	name,
 	lastName,
 	alias,
@@ -8,14 +9,9 @@ export default function FeriaCard({
 	link,
 	benefit,
 }) {
-	// let getBio = () => {
-	//   fetch(bio)
-	//   .then(response => response.text())
-	//   .then(text => text)
-	// }
 	return (
 		<>
-			<a href={link} target="_blank" rel="noreferrer">
+			<a href={link}>
 				<div className="feria-card">
 					<div className="thumb feria-card__thumb">
 						<img
@@ -34,6 +30,13 @@ export default function FeriaCard({
 					</div>
 				</div>
 			</a>
+			<TheModal
+				name={name}
+				lastName={lastName}
+				alias={alias}
+				image={logo}
+				benefit={benefit}
+			/>
 		</>
 	)
 }
