@@ -32,13 +32,4 @@
 		color: #1f272b;
 		font-size: 14px;
 	}
-
-	.text-content {
-		height: 100px;
-		overflow-y: scroll;
-
-		@media all and (max-width: 480px) {
-			height: auto;
-		}
-	}
 }
