@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './PonentesCard.style.scss'
 import TheModal from '../../components/TheModal/TheModal'
 
@@ -9,9 +10,13 @@ export default function PonentesCard({
 	link,
 	benefit,
 }) {
+	const [show, setShow] = useState(false)
+
+	const handleClose = () => setShow(false)
+	const handleShow = () => setShow(true)
 	return (
 		<>
-			<div className="feria-card">
+			<div className="feria-card" onClick={handleShow}>
 				<div className="thumb feria-card__thumb">
 					<img
 						className="feria-card__img"
@@ -29,6 +34,8 @@ export default function PonentesCard({
 				</div>
 			</div>
 			<TheModal
+				show={show}
+				close={handleClose}
 				name={name}
 				lastName={lastName}
 				alias={alias}
