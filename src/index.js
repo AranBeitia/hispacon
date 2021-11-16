@@ -4,12 +4,9 @@ import App from './App'
 import reportWebVitals from './reportWebVitals'
 import { render } from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
-
-import './vendor/bootstrap/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './assets/css/fontawesome.css'
 import './assets/css/templatemo-edu-meeting.css'
-import './assets/css/owl.css'
-import './assets/css/lightbox.css'
 
 render(
 	<BrowserRouter>
