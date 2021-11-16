@@ -14,7 +14,7 @@ import visiones from '../../assets/images/events/visiones.jpg'
 import opportunity from '../../assets/images/events/opportunity.jpg'
 import gigamesh from '../../assets/images/events/gigamesh.jpg'
 import insolita from '../../assets/images/events/insolita.jpg'
-// import akira from '../../assets/images/events/akira.jpg'
+import akira from '../../assets/images/events/akira.jpg'
 import mundos from '../../assets/images/events/80mundos.jpg'
 import pantera from '../../assets/images/events/pantera.jpg'
 
@@ -43,8 +43,8 @@ export default function ProgramaPage() {
 				return gigamesh
 			case 'insolita':
 				return insolita
-			// case "akira":
-			// 	return akira
+			case "akira":
+				return akira
 			case 'mundos':
 				return mundos
 			case 'pantera':
@@ -140,7 +140,7 @@ export default function ProgramaPage() {
 	return (
 		<div>
 			<HeaderNav />
-			<Hero id={1} title={'programa'} description={'programita'} />
+			<Hero id={1} title={'participa en nuestras actividades'} description={'programa'} />
 			<section className="wrapper">
 				<div className="container">
 					<div className="row">

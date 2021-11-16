@@ -12,7 +12,6 @@ export default function PonentesPage() {
 		<>
 			<HeaderNav />
 			<Splashpage
-				subtitle="Lorem impusom dolor"
 				title="Jornadas Pórtico 2021"
 				description={text}
 				linkText="Descargar PDF"
