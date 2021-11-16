@@ -33,9 +33,9 @@ export default function TheMenu () {
 								<li>
 									<Link to="/programa" className={splitLocation[1] === "programa" ? 'active': ''}>Programa</Link>
 								</li>
-								<li>
+								{/* <li>
 									<Link to="/ponentes" className={splitLocation[1] === "ponentes" ? 'active': ''}>Ponentes</Link>
-								</li>
+								</li> */}
 								<li>
 									<Link to="/feriaVirtual" className={splitLocation[1] === "feriaVirtual" ? 'active': ''}>II FVLG</Link>
 								</li>
