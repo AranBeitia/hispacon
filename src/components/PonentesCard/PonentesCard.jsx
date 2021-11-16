@@ -11,25 +11,23 @@ export default function PonentesCard({
 }) {
 	return (
 		<>
-			<a href={link}>
-				<div className="feria-card">
-					<div className="thumb feria-card__thumb">
-						<img
-							className="feria-card__img"
-							src={logo}
-							alt={`Imagen de ${name}`}
-						/>
-					</div>
-					<div className="feria-card__down-content">
-						<h4 className="feria-card__title">
-							{name} {lastName} {alias ? `"${alias}"` : null}
-						</h4>
-						<div className="text-content">
-							<p className="feria-card__text">{benefit}</p>
-						</div>
+			<div className="feria-card">
+				<div className="thumb feria-card__thumb">
+					<img
+						className="feria-card__img"
+						src={logo}
+						alt={`Imagen de ${name}`}
+					/>
+				</div>
+				<div className="feria-card__down-content">
+					<h4 className="feria-card__title">
+						{name} {lastName} {alias ? `"${alias}"` : null}
+					</h4>
+					<div className="text-content">
+						<p className="feria-card__text">{benefit}</p>
 					</div>
 				</div>
-			</a>
+			</div>
 			<TheModal
 				name={name}
 				lastName={lastName}

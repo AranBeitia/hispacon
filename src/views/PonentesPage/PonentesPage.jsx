@@ -39,13 +39,13 @@ export default function PonentesPage() {
 			<HeaderNav />
 			<Hero id={2} title={'Ponentes'} description={'Ponentes'} />
 			<section className="wrapper">
-				<input
-					ref={searchField}
-					onChange={search}
-					type="text"
-					placeholder="Buscar"
-				/>
 				<div className="container">
+					<input
+						ref={searchField}
+						onChange={search}
+						type="text"
+						placeholder="Buscar"
+					/>
 					<div className="grid-layout">
 						{ponentes.map((ponente) => (
 							<PonentesCard
