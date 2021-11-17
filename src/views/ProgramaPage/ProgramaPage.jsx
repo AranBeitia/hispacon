@@ -234,9 +234,9 @@ export default function ProgramaPage() {
 					</div>
 
 					<div className="grid-layout">
-						{events.map((cardInfo, index) => (
+						{events.map((cardInfo) => (
 							<Card
-								key={index}
+								key={cardInfo.id}
 								id={cardInfo.id}
 								title={cardInfo.title}
 								description={cardInfo.description}

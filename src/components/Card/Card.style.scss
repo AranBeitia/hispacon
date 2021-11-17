@@ -33,14 +33,14 @@
       height: 100px;
       overflow-y: scroll;
 
-      &::-webkit-scrollbar {
-        display: none;
-      }
+      // &::-webkit-scrollbar {
+      //   display: none;
+      // }
 
-      &.--scroll-hidden {
-        -ms-overflow-style: none;
-        scrollbar-width: none;
-      }
+      // &.--scroll-hidden {
+      //   -ms-overflow-style: none;
+      //   scrollbar-width: none;
+      // }
     
       @media all and (max-width: 480px) {
         height: auto;

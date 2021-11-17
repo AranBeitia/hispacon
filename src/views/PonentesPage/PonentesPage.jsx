@@ -4,7 +4,7 @@ import Footer from '../../components/Footer/Footer'
 import PonentesCard from '../../components/PonentesCard/PonentesCard'
 
 import IMAGES from '../../assets/data/ponentes-img.js'
-import BIOS from '../../assets/data/ponentes-bio.js'
+// import BIOS from '../../assets/data/ponentes-bio.js'
 
 import data from '../../assets/data/ponentes.json'
 import { useRef, useState } from 'react'
@@ -55,7 +55,8 @@ export default function PonentesPage() {
 								lastName={ponente.lastName}
 								alias={ponente.alias}
 								logo={IMAGES[ponente.id]}
-								benefit={BIOS[ponente.id]}
+								// benefit={BIOS[ponente.id]}
+								benefit={ponente.bio}
 							/>
 						))}
 					</div>

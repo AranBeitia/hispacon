@@ -13,7 +13,7 @@ export default function PonentesPage() {
 			<HeaderNav />
 			<Splashpage
 				subtitle="¡Bienvenido!"
-				title="Hispacon 2021"
+				title="HispaCón 2021"
 				description={text}
 				linkText="Ver programa"
 				link="/programa"
