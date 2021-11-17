@@ -25,7 +25,7 @@ import pluma from '../../assets/images/feria/pluma.png'
 import premium from '../../assets/images/feria/premium.png'
 import raigvert from '../../assets/images/feria/raigvert.png'
 import roomie from '../../assets/images/feria/roomie.png'
-import secc from '../../assets/images/feria/secc.png'
+// import secc from '../../assets/images/feria/secc.png'
 
 
 export default function FeriaVirtualPage() {
@@ -71,8 +71,8 @@ export default function FeriaVirtualPage() {
 				return raigvert
 			case 'roomie':
 				return roomie
-			case 'secc':
-				return secc
+			// case 'secc':
+			// 	return secc
 			default:
 				break
 		}
