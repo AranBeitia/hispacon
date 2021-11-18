@@ -54,7 +54,7 @@ export default function PonentesPage() {
 								lastName={ponente.lastName}
 								alias={ponente.alias}
 								logo={IMAGES[ponente.id]}
-								benefit={ponente.bio}
+								bio={ponente.bio}
 							/>
 						))}
 					</div>

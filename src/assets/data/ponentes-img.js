@@ -138,7 +138,6 @@ const IMAGES = {
   'P144': require('../images/ponentes-img/P144-Foto-Paula-Yagüei-López-Jurado-.jpg').default,
   'P145': require('../images/ponentes-img/P145-Foto-Ana-Tapia-7.JPG').default,
   'P146': require('../images/ponentes-img/P146-Foto-Olga-López.jpg').default,
-  'P147': require('../images/ponentes-img/P147-Foto-Covadonga-González-Pola.jpg').default,
   'P148': require('../images/ponentes-img/P148-Foto-Ruben-SáncheTrigos.png').default,
   'P149': require('../images/ponentes-img/P149-y-P150-Foto-Shaila-Correa-y-María-Pérede-San-Román.jpg').default,
   'P150': require('../images/ponentes-img/P149-y-P150-Foto-Shaila-Correa-y-María-Pérede-San-Román.jpg').default,
@@ -204,6 +203,8 @@ const IMAGES = {
   'P210': require('../images/ponentes-img/P210-Foto-Darío-DíaAnzalone.jfif').default,
   'P211': require('../images/ponentes-img/P211-Foto-Juan-Francisco-Troya.jpg').default,
   'P212': require('../images/ponentes-img/P212-Carlo-E.-Gallucci-Vallcorba.jpg').default,
+  'P213': require('../images/ponentes-img/P213-Foto-Elena-Durán.jpg').default,
+  'P214': require('../images/ponentes-img/P214-Foto-Maria-Antonia-Martí-Enscayol.JPG').default,
   'P215': require('../images/ponentes-img/P215-Mario-David-Cárdenas-Cancio.png').default,
   'P216': require('../images/ponentes-img/P216-Foto-Laura-Huerga.jpg').default,
   'P217': require('../images/ponentes-img/P217-Bio-Victor-Guez.png').default,
@@ -226,6 +227,7 @@ const IMAGES = {
   'P234': require('../images/ponentes-img/P234-Foto-Maria-José-Orellana-Ríos.jpg').default,
   'P235': require('../images/ponentes-img/P235-y-236-Foto-Sara-Herculano-y-Cisco-Bellabestia.jpeg').default,
   'P236': require('../images/ponentes-img/P235-y-236-Foto-Sara-Herculano-y-Cisco-Bellabestia.jpeg').default,
+  'P237': require('../images/ponentes-img/P237-Foto-Raúl-Gonzálvez-del-Águila.png').default,
 }
 
 export default IMAGES

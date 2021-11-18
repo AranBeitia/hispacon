@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 
-export default function Splashpage({subtitle, title, description, linkText, link, video, url, secondText, pdflink}) {
+export default function Splashpage({ subtitle, title, description, linkText, link, video, url, secondText, pdflink }) {
   return (
     <section className="section main-banner" id="top" data-section="section1">
       <video autoPlay muted loop id="bg-video">
