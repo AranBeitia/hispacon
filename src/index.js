@@ -9,7 +9,7 @@ import './assets/css/fontawesome.css'
 import './assets/css/templatemo-edu-meeting.css'
 
 render(
-	<BrowserRouter>
+	<BrowserRouter basename="/hispacon2021">
 		<App />
 	</BrowserRouter>,
 	document.getElementById('root')
