@@ -1,4 +1,4 @@
-.feria-card {
+.p-card {
 	&__thumb {
 		display: flex;
 		justify-content: center;
@@ -10,10 +10,12 @@
 	}
 
 	&__img {
-		max-width: 200px;
+		clip-path: circle(170px at 50% 50%);
 	}
 
 	&__down-content {
+		display: flex;
+		flex-direction: column;
 		background-color: #fff;
 		padding: 30px;
 		border-bottom-right-radius: 20px;
@@ -28,8 +30,4 @@
 		margin-bottom: 15px;
 	}
 
-	&__text {
-		color: #1f272b;
-		font-size: 14px;
-	}
 }

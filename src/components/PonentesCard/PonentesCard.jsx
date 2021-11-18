@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './PonentesCard.style.scss'
+import Button from 'react-bootstrap/Button'
 import TheModal from '../../components/TheModal/TheModal'
 
 export default function PonentesCard({
@@ -16,22 +17,22 @@ export default function PonentesCard({
 	const handleShow = () => setShow(true)
 	return (
 		<>
-			<div className="feria-card" onClick={handleShow}>
-				<div className="thumb feria-card__thumb">
+			<div className="p-card" onClick={handleShow}>
+				<div className="thumb p-card__thumb">
 					<img
-						className="feria-card__img"
+						className="p-card__img"
 						src={logo}
 						loading="lazy"
 						alt={`Imagen de ${name}`}
 					/>
 				</div>
-				<div className="feria-card__down-content">
-					<h4 className="feria-card__title">
+				<div className="p-card__down-content">
+					<h4 className="p-card__title">
 						{name} {lastName} {alias ? `"${alias}"` : null}
 					</h4>
-					<div className="text-content">
-						<p className="feria-card__text">{benefit}</p>
-					</div>
+					<Button variant="dark" onClick={handleShow}>
+						Ver biografía
+					</Button>
 				</div>
 			</div>
 			<TheModal
