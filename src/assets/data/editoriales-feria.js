@@ -21,6 +21,7 @@ const editorialesImg = {
   "raigvert": require('../images/feria/raigvert.png').default,
   "secc": require('../images/feria/secc.png').default,
   "maldragon": require('../images/feria/maldragon.png').default,
+  "insolita": require('../images/feria/insolita.png').default,
 }
 
 export default editorialesImg

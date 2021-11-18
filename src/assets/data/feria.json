@@ -25,7 +25,7 @@
             "name": "Editorial Cerbero",
             "logo": "cerbero",
             "link": "https://www.editorialcerbero.com/",
-            "benefit": "5% de descuento en todas las compras durante la Hispacon y regalo sorpresa en cada paquete"
+            "benefit": "5% de descuento en todas las compras durante la HispaCón y regalo sorpresa en cada paquete"
         },
         {
             "id": "L005",
@@ -151,5 +151,12 @@
             "logo": "maldragon",
             "link": "https://www.maldragon.com/",
             "benefit": "5% de descuento en todos sus libros durante la HispaCón. De regalo una lámina de Monstruos Ibéricos y un marcapáginas exclusivo"
+        },
+        {
+            "id": "L023",
+            "name": "Insólita Editorial",
+            "logo": "insolita",
+            "link": "https://insolitaeditorial.com/",
+            "benefit": "5% de descuento durante la HispaCón. Envío por mensajería gratis al comprar dos o más libros (envío por correo ordinario gratuito para compras de un título)."
         }
     ]

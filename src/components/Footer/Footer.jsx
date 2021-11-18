@@ -9,7 +9,6 @@ import {
 	ROSSA,
 	SHOGUN,
 	UMA,
-	DUERMEVELA,
 } from '../../assets/images/partners'
 import './Footer.style.scss'
 
@@ -28,7 +27,6 @@ export default function Footer() {
 					<img src={ROSSA} alt="Partner" />
 					<img src={SHOGUN} alt="Partner" />
 					<img src={UMA} alt="Partner" />
-					<img src={DUERMEVELA} alt="Partner" />
 				</div>
 				<p>
 					© {new Date().getFullYear()} Pórtico · Asociación Española de

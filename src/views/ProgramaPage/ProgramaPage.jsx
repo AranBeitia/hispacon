@@ -72,7 +72,7 @@ export default function ProgramaPage() {
 			let eventsDay = data.filter((event) => parseInt(event.day) === day)
 			setEvents(eventsDay)
 		} else if (selectedRoom === 'all' && day === null) {
-			return
+			setEvents(data)
 		} else {
 			if (day === null) {
 				let allEventsPerRoom = data.filter(
