@@ -45,7 +45,8 @@
             "id": "L007",
             "name": "Ediciones Dorna",
             "logo": "dorna",
-            "link": "https://edicionesdorna.com/"
+            "link": "https://edicionesdorna.com/",
+            "benefit": "5% de descuento en las compras con el código FVLG2021"
         },
         {
             "id": "L008",
@@ -134,7 +135,8 @@
             "id": "L020",
             "name": "Raig Verd/Rayo Verde",
             "logo": "raigvert",
-            "link": "http://www.rayoverde.es/"
+            "link": "http://www.rayoverde.es/",
+            "benefit": "5% de descuento y regalos promocionales introduciendo el código RV_HISPACON2021"
         },
         {
             "id": "L021",
@@ -142,5 +144,12 @@
             "logo": "secc",
             "link": "https://edicionssecc.blogspot.com/",
             "benefit": "5% de descuento con el cód. HISPACON2021"
+        },
+        {
+            "id": "L022",
+            "name": "Maldragón Editorial",
+            "logo": "maldragon",
+            "link": "https://www.maldragon.com/",
+            "benefit": "5% de descuento en todos sus libros durante la HispaCón. De regalo una lámina de Monstruos Ibéricos y un marcapáginas exclusivo"
         }
     ]

@@ -58,7 +58,7 @@ export default function Card({
 						Nov <span>{day}</span>
 					</h6>
 					{videoLink === null ? null : (
-						<a href={videoLink}>
+						<a href={videoLink} target="_blank" rel="noreferrer">
 							<img
 								src={youtubeIcon}
 								alt="Go to live Youtube Channel"

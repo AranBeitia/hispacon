@@ -1,7 +1,7 @@
 [
         {
             "id": "1",
-            "title": "Inauguración Hispacón - Conversación con Roberto López-Herrero",
+            "title": "Inauguración Hispacón 2021 - Conversación con Roberto López-Herrero",
             "description": "Con Roberto López Herrero y Luis Endera (entrevista)",
             "day": "19",
             "hour": "10:00 - 11:00",
@@ -27,11 +27,11 @@
             "hour": "11:00 - 12:00",
             "image": "opportunity",
             "videoLink": "https://www.youtube.com/channel/UCEv3bbwi46oHRJ_gXdb9V5Q",
-            "room": "Opportunity"
+            "room": "Sedes"
         },
         {
             "id": "4",
-            "title": "Sabres de sal, un univers fosc de tinta i paper (Edicions SECC)",
+            "title": "Sabres de sal, un univers fosc de tinta i paper (Edicions SECC desde la Librería La Insòlita)",
             "description": "Con Alister Mario y Alicia Gili (modera)",
             "day": "19",
             "hour": "11:00 - 11:30",
@@ -91,7 +91,7 @@
         },
         {
             "id": "10",
-            "title": "It's the end of the world, as we know it. La distopía en rayo verde",
+            "title": "It's the end of the world, as we know it. La distopía en Rayo Verde",
             "description": "Con Laura Huerga",
             "day": "19",
             "hour": "13:30 - 14:00",
@@ -177,7 +177,7 @@
             "hour": "18:00 - 19:00",
             "image": "opportunity",
             "videoLink": "https://www.youtube.com/channel/UCEv3bbwi46oHRJ_gXdb9V5Q",
-            "room": "Opportunity"
+            "room": "Sedes"
         },
         {
             "id": "19",
@@ -267,7 +267,7 @@
             "hour": "12:00 - 13:00",
             "image": "opportunity",
             "videoLink": "https://www.youtube.com/channel/UCEv3bbwi46oHRJ_gXdb9V5Q",
-            "room": "Opportunity"
+            "room": "Sedes"
         },
         {
             "id": "28",
@@ -342,7 +342,7 @@
         {
             "id": "35",
             "title": "Windumanoth Podcast",
-            "description": "Con Álex Sebastián e Ismael F. Cabeza",
+            "description": "Con Álex Sebastián, Ismael F. Cabeza, Daniel Izur y Marcos Rafael Cañas",
             "day": "20",
             "hour": "15:00 - 16:00",
             "image": "visiones",
@@ -377,7 +377,7 @@
             "hour": "16:00 - 17:00",
             "image": "opportunity",
             "videoLink": "https://www.youtube.com/channel/UCEv3bbwi46oHRJ_gXdb9V5Q",
-            "room": "Opportunity"
+            "room": "Sedes"
         },
         {
             "id": "39",
@@ -407,7 +407,7 @@
             "hour": "17:00 - 18:00",
             "image": "opportunity",
             "videoLink": "https://www.youtube.com/channel/UCEv3bbwi46oHRJ_gXdb9V5Q",
-            "room": "Opportunity"
+            "room": "Sedes"
         },
         {
             "id": "42",
@@ -520,7 +520,7 @@
         },
         {
             "id": "53",
-            "title": "Tolkien mainstream",
+            "title": "Tolkien como fenómeno mainstream",
             "description": "Con Mónica Sanz, Josu Gómez, Bárbara García y Héctor Vielva (modera)",
             "day": "21",
             "hour": "10:00 - 11:00",
@@ -581,7 +581,7 @@
         {
             "id": "59",
             "title": "Presentación de Fabricantes de Sueños 2016-2017",
-            "description": "Con Covadonga Martínez-Pola, Josué Ramos, María Antonia Martí Escayol, David Luna Lorenzo, Conchi Regueiro y Míriam Álvarez Elvira",
+            "description": "Con Raúl Gonzálvez del Águila, Josué Ramos, María Antonia Martí Escayol, David Luna Lorenzo, Conchi Regueiro y Míriam Álvarez Elvira",
             "day": "21",
             "hour": "12:00 - 13:00",
             "image": "ignotus",
@@ -749,7 +749,7 @@
         },
         {
             "id": "76",
-            "title": "Clausura",
+            "title": "Ceremonia de clausura",
             "description": "Cierre de la HispaCón 2021",
             "day": "21",
             "hour": "20:00 - 21:00",

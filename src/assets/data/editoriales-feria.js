@@ -1,0 +1,26 @@
+const editorialesImg = {
+  "aloha": require('../images/feria/aloha.png').default,
+  "arima": require('../images/feria/arima.png').default,
+  "aristas": require('../images/feria/aristas.png').default,
+  "cerbero": require('../images/feria/cerbero.png').default,
+  "pluma": require('../images/feria/pluma.png').default,
+  "crononauta": require('../images/feria/crononauta.png').default,
+  "dorna": require('../images/feria/dorna.png').default,
+  "duermevela": require('../images/feria/duermevela.png').default,
+  "dmentes": require('../images/feria/dmentes.png').default,
+  "carfax": require('../images/feria/carfax.png').default,
+  "ping": require('../images/feria/ping.png').default,
+  "insomnia": require('../images/feria/insomnia.png').default,
+  "loba": require('../images/feria/loba.png').default,
+  "pezplata": require('../images/feria/pezplata.png').default,
+  "premium": require('../images/feria/premium.png').default,
+  "roomie": require('../images/feria/roomie.png').default,
+  "literup": require('../images/feria/literup.png').default,
+  "maimes": require('../images/feria/maimes.png').default,
+  "obscura": require('../images/feria/obscura.png').default,
+  "raigvert": require('../images/feria/raigvert.png').default,
+  "secc": require('../images/feria/secc.png').default,
+  "maldragon": require('../images/feria/maldragon.png').default,
+}
+
+export default editorialesImg

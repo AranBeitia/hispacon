@@ -1,7 +1,6 @@
 import HeaderNav from '../components/HeaderNav/HeaderNav'
 import Splashpage from '../components/Splashpage'
 import FooterPortico from '../components/Footer/FooterPortico'
-import pdfPortico from '../assets/docs/jornadasPortico.pdf'
 import jornadasVideo from '../assets/video/jornadas.mp4'
 
 export default function PonentesPage() {
@@ -15,7 +14,7 @@ export default function PonentesPage() {
 				title="Jornadas Pórtico 2021"
 				description={text}
 				linkText="Descargar PDF"
-				link={pdfPortico}
+				pdflink={"https://aefcft.com/hispacon2021/jornadasPortico.pdf"}
 				video={jornadasVideo}
 				url={"https://discord.gg/dEHCazPzdc"}
 				secondText={"nuestro servidor de Discord."}
