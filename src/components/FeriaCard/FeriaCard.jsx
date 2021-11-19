@@ -27,7 +27,7 @@ export default function FeriaCard({
 						<div className="text-content">
 							<p className="feria-card__text">{benefit}</p>
 						</div>
-						<Button href={link} variant="dark">
+						<Button href={link} target="_blank" rel="noreferrer" variant="dark" className="feria-card__btn">
 							Comprar
 						</Button>
 					</div>
