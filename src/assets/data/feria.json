@@ -25,7 +25,7 @@
             "name": "Editorial Cerbero",
             "logo": "cerbero",
             "link": "https://www.editorialcerbero.com/",
-            "benefit": "5% de descuento en todas las compras durante la HispaCón y regalo sorpresa en cada paquete"
+            "benefit": "5% de descuento en todas las compras durante la HispaCón con el código HISPACON2021 y regalo sorpresa en cada paquete"
         },
         {
             "id": "L005",
@@ -119,12 +119,6 @@
             "benefit": "5% de descuento en todo el catálogo, físico y digital"
         },
         {
-            "id": "L018",
-            "name": "Mai Més",
-            "logo": "maimes",
-            "link": "https://www.maimes.cat/"
-        },
-        {
             "id": "L019",
             "name": "Obscura Editorial",
             "logo": "obscura",
@@ -135,8 +129,8 @@
             "id": "L020",
             "name": "Raig Verd/Rayo Verde",
             "logo": "raigvert",
-            "link": "http://www.rayoverde.es/",
-            "benefit": "5% de descuento y regalos promocionales introduciendo el código RV_HISPACON2021"
+            "link": "http://www.raigverdeditorial.cat/compres-a-traves-daixeta/",
+            "benefit": "5% de descuento y regalos promocionales (como suscriptor de la editorial) en bookshop.org introduciendo el código RV_HISPACON2021"
         },
         {
             "id": "L021",
