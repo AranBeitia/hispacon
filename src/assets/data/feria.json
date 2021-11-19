@@ -32,7 +32,7 @@
             "name": "Editorial Con Pluma y Píxel",
             "logo": "pluma",
             "link": "https://conplumaypixel.com/",
-            "benefit": "5% de descuento en todo el catálogo durante la FVLG\r\n• Gastos de envío gratis en pedidos de más de 20 €\r\n• Pack Flash Interactivo (los 4 libros + 2 marcapáginas + hojas de personaje + envío gratis).\r\n• Pack La saga del Merc (los 3 libros + dedicados + juego de dados mini\r\nde regalo + hoja de personaje + 2 marcapáginas + envío gratis)"
+            "benefit": "5% de descuento en todo el catálogo durante la FVLG<br>- Gastos de envío gratis en pedidos de más de 20 €<br>- Pack Flash Interactivo (los 4 libros + 2 marcapáginas + hojas de personaje + envío gratis)<br>- Pack La saga del Merc (los 3 libros + dedicados + juego de dados mini de regalo + hoja de personaje + 2 marcapáginas + envío gratis)"
         },
         {
             "id": "L006",
@@ -53,28 +53,28 @@
             "name": "Duermevela Ediciones",
             "logo": "duermevela",
             "link": "https://www.duermevelaediciones.es/",
-            "benefit": "5% descuento con el cód. HISPACON2021\r\nPostal y marcapáginas de cada libro adquirido\r\nPin de Atenea con La Ciudad Justa\r\nLámina de dirigible con La maldición del tranvía 015"
+            "benefit": "5% descuento con el cód. HISPACON2021<br>Postal y marcapáginas de cada libro adquirido<br>Pin de Atenea con La Ciudad Justa<br>Lámina de dirigible con La maldición del tranvía 015"
         },
         {
             "id": "L009",
             "name": "Dilatando Mentes Editorial",
             "logo": "dmentes",
             "link": "https://dilatandomenteseditorial.com/",
-            "benefit": "5% de descuento + marcapáginas\r\nEnvío por mensajería 48-72h gratis por la compra de dos o más libros"
+            "benefit": "5% de descuento + marcapáginas. Envío por mensajería 48-72h gratis por la compra de dos o más libros"
         },
         {
             "id": "L010",
             "name": "La biblioteca de Carfax",
             "logo": "carfax",
             "link": "https://labibliotecadecarfax.com/",
-            "benefit": "5 % descuento con cód. HISPACON2021\r\nIlustración de cubierta del libro adquirido y chapa\r\nEnvío por correo ordinario gratis"
+            "benefit": "5 % descuento con cód. HISPACON2021. Ilustración de cubierta del libro adquirido y chapa. Envío por correo ordinario gratis"
         },
         {
             "id": "L011",
             "name": "La máquina que hace PING!",
             "logo": "ping",
             "link": "https://lamaquinaquehaceping.com/",
-            "benefit": "5% de descuento durante la FVLG\r\nCada libro comprado llevará escrita una frase de la autora o autor creada expresamente para la ocasión\r\n5% de descuento para nuestra web durante 2022 con compras de 3 libros o más durante la FVLG\r\nMás allá de los mapas: libro digital especial gratis disponible en nuestra web. Con relatos completos de Tim Pratt, Laura Ponce, Robert Shearman, Cristian Cristian Romero y Cat Rambo"
+            "benefit": "5% de descuento durante la FVLG<br>Cada libro comprado llevará escrita una frase de la autora o autor creada expresamente para la ocasión<br>5% de descuento para nuestra web durante 2022 con compras de 3 libros o más durante la FVLG<br>Más allá de los mapas: libro digital especial gratis disponible en nuestra web. Con relatos completos de Tim Pratt, Laura Ponce, Robert Shearman, Cristian Cristian Romero y Cat Rambo"
         },
         {
             "id": "L012",
@@ -95,14 +95,14 @@
             "name": "Editorial Pez de plata",
             "logo": "pezplata",
             "link": "https://editorialpezdeplata.com/",
-            "benefit": "5% de descuentocon cód. HISPACON. (Válido hasta 30/11/2021)\r\nUn libro de género de regalo con cada compra (Pez de Plata elegirá según los títulos comprados). \r\nRegalo de una selección de Postales y Marcapáginas. \r\nTodos los compradores entrarán en un sorteo de una ilustración original y personalizada en papel verjurado 285 gr. El ganador/a protagonizará una portada simulada de Pez de Plata.\r\nEnvío gratuito."
+            "benefit": "5% de descuentocon cód. HISPACON. (Válido hasta 30/11/2021)<br>Un libro de género de regalo con cada compra (Pez de Plata elegirá según los títulos comprados). <br>Regalo de una selección de Postales y Marcapáginas. <br>Todos los compradores entrarán en un sorteo de una ilustración original y personalizada en papel verjurado 285 gr. El ganador/a protagonizará una portada simulada de Pez de Plata.<br>Envío gratuito."
         },
         {
             "id": "L015",
             "name": "Editorial Premium",
             "logo": "premium",
             "link": "https://editorialpremium.es/",
-            "benefit": "5% de descuento en:\r\n- La novela ganadora del premio Domingo Santos de Novela\r\n- Las edades de Itnis\r\n- Nos olvidamos de hablarnos"
+            "benefit": "5% de descuento en:<br>- La novela ganadora del premio Domingo Santos de Novela<br>- Las edades de Itnis<br>- Nos olvidamos de hablarnos"
         },
         {
             "id": "L016",
@@ -129,7 +129,7 @@
             "name": "Obscura Editorial",
             "logo": "obscura",
             "link": "https://www.obscura.es/",
-            "benefit": "5% de descuento con el cód. Hispacón21Obscura\r\nRegalo de marcapáginas y material promocional de los libros adquiridos"
+            "benefit": "5% de descuento con el cód. Hispacón21Obscura. Regalo de marcapáginas y material promocional de los libros adquiridos"
         },
         {
             "id": "L020",

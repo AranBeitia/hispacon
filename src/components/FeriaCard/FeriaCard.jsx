@@ -1,10 +1,10 @@
-import './FeriaCard.style.scss'
 import Button from 'react-bootstrap/Button'
+import parse from 'html-react-parser'
+
+import './FeriaCard.style.scss'
 
 export default function FeriaCard({
 	name,
-	lastName,
-	alias,
 	logo,
 	link,
 	benefit,
@@ -21,11 +21,9 @@ export default function FeriaCard({
 						/>
 					</div>
 					<div className="feria-card__down-content">
-						<h4 className="feria-card__title">
-							{name} {lastName} {alias ? `"${alias}"` : null}
-						</h4>
+						<h4 className="feria-card__title">{name}</h4>
 						<div className="text-content">
-							<p className="feria-card__text">{benefit}</p>
+							<p className="feria-card__text">{typeof benefit === "string" ? parse(benefit) : null}</p>
 						</div>
 						<Button href={link} target="_blank" rel="noreferrer" variant="dark" className="feria-card__btn">
 							Comprar
