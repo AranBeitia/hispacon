@@ -28,7 +28,7 @@ export default function FeriaCard({
 							<p className="feria-card__text">{benefit}</p>
 						</div>
 						<Button href={link} variant="dark">
-							Ver más
+							Comprar
 						</Button>
 					</div>
 				</div>
