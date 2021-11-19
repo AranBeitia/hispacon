@@ -1,5 +1,5 @@
 import './FeriaCard.style.scss'
-// import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button'
 
 export default function FeriaCard({
 	name,
@@ -27,7 +27,9 @@ export default function FeriaCard({
 						<div className="text-content">
 							<p className="feria-card__text">{benefit}</p>
 						</div>
-						{/* <Button variant="dark">Ver más</Button> */}
+						<Button href={link} variant="dark">
+							Ver más
+						</Button>
 					</div>
 				</div>
 			</a>
