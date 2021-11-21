@@ -17,6 +17,7 @@ import insolita from '../../assets/images/events/insolita.jpg'
 import akira from '../../assets/images/events/akira.jpg'
 import mundos from '../../assets/images/events/80mundos.jpg'
 import pantera from '../../assets/images/events/pantera.jpg'
+import jornadas from '../../assets/images/events/jornadas.jpg'
 
 export default function ProgramaPage() {
 	let [events, setEvents] = useState(data)
@@ -49,6 +50,8 @@ export default function ProgramaPage() {
 				return mundos
 			case 'pantera':
 				return pantera
+			case 'jornadas':
+				return jornadas
 			default:
 				break
 		}
@@ -222,7 +225,7 @@ export default function ProgramaPage() {
 							>
 								Opportunity
 							</li>
-							{/* <li onClick={() => {getEventsRoom("Jornadas")}}>Jornadas</li> */}
+							<li onClick={() => {getEventsRoom("Jornadas")}}>Jornadas</li>
 							<li
 								onClick={() => {
 									getEventsRoom('Sedes')
@@ -247,6 +250,7 @@ export default function ProgramaPage() {
 								pinEvent={isPinned(cardInfo.id)}
 								handlePinnedEvent={handlePinnedEvent}
 								isPinned={isPinned}
+								platform={cardInfo.platform}
 							/>
 						))}
 					</div>

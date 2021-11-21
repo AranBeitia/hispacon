@@ -1,6 +1,10 @@
 import { useState } from 'react'
+
 import './Card.style.scss'
+
 import youtubeIcon from '../../assets/images/icons/youtube-icon.svg'
+import twitchIcon from '../../assets/images/icons/twitch-icon.svg'
+import eventbriteIcon from '../../assets/images/icons/eventbrite-icon.svg'
 import bookmarkOutline from '../../assets/images/icons/bookmark-outline.svg'
 import bookmarkFull from '../../assets/images/icons/bookmark-full.svg'
 
@@ -15,12 +19,26 @@ export default function Card({
 	pinEvent,
 	handlePinnedEvent,
 	isPinned,
+	platform
 }) {
 	let [pinned, setPinned] = useState(pinEvent)
 
 	function handlePinClick(action, id) {
 		handlePinnedEvent(action, id)
 		setPinned(!pinned)
+	}
+
+	function getPlatformImg(platform) {
+		switch (platform) {
+			case "Youtube":
+				return youtubeIcon
+			case "Twitch":
+				return twitchIcon
+			case "Eventbrite":
+				return eventbriteIcon
+			default:
+				break;
+		}
 	}
 
 	return (
@@ -60,9 +78,9 @@ export default function Card({
 					{videoLink === null ? null : (
 						<a href={videoLink} target="_blank" rel="noreferrer">
 							<img
-								src={youtubeIcon}
-								alt="Go to live Youtube Channel"
-								className="youtube-icon"
+								src={getPlatformImg(platform)}
+								alt="Ir a retransmisión en directo"
+								className="stream-icon"
 							/>
 						</a>
 					)}
